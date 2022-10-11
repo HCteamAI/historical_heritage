@@ -1,0 +1,43 @@
+concept_social_economic_geography_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[объект социально-экономической географии]
+	(*
+	<- lang_ru;;
+	*);
+	[social-economic geography object]
+	(*
+	<- lang_en;;
+	*);
+	
+<=nrel_subdividing:{
+	concept_country;
+	concept_region;
+	concept_locality	
+	};
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Объект социально-экономической географии — особенности размещения населения и хозяйственной деятельности людей.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The object of social-economic geography is the peculiarities of the distribution of the population and the economic activity of people.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

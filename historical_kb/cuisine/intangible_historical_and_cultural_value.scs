@@ -1,0 +1,42 @@
+intangible_historical_and_cultural_value
+<-sc_const;
+<-sc_node_not_relation;
+<=nrel_inclusion: section_subject_domain_heritage;
+=>nrel_system_idtf:[intangible_historical_and_cultural_value];
+
+=> nrel_main_idtf:
+	[Предметная область нематериальной историко-культурной ценности]
+	(*
+	<- lang_ru;;
+	*);
+	[Subject domain of intangible historical and cultural value]
+	(*
+	<- lang_en;;
+	*);
+	[Прадметная вобласць нематэрыяльнай гісторыка-культурная каштоўнасці]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Нематериальная историко-культурная ценность – это историко-культурая ценность, не имеющая физического воплощения в реальном мире и выражающаяся в нематериальном проявлении творчества человека.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Нематэрыяльная гісторыка-культурная каштоўнасць – гэта гісторыка-культурная каштоўнасць, якая не мае фізічнага ўвасаблення ў рэальным свеце і выяўляецца ў нематэрыяльнай праяве творчасці чалавека.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;
+

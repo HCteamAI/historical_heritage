@@ -1,0 +1,40 @@
+concept_type_concert
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_type_concert];
+
+=> nrel_main_idtf:
+	[концерт (произведение)]
+	(*
+	<- lang_ru;;
+	*);
+	[concert]
+	(*
+	<- lang_en;;
+	*);
+	[канцэрт]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Концерт — музыкальное произведение, чаще всего для одного или нескольких солирующих инструментов с оркестром.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Канцэрт — музычны твор, часцей за ўсё для аднаго ці некалькіх саліруючых інструментаў з аркестрам.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

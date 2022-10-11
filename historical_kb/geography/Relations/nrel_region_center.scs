@@ -1,0 +1,44 @@
+nrel_region_center
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[районный центр*]
+	(*
+	<- lang_ru;;
+	*);
+	[region center*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_region;
+=> nrel_second_domain: 	
+	concept_town;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Районный центр* — центр области, автономной области, автономного округа.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A region center* is the center of an oblast, an autonomous state, an autonomous district.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

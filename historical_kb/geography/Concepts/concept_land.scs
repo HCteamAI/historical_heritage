@@ -1,0 +1,42 @@
+concept_land
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[материк]
+	(*
+	<- lang_ru;;
+	*);
+	[континент]
+	(*
+	<- lang_ru;;
+	*);
+	[land]
+	(*
+	<- lang_en;;
+	*);
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Материк - обширное пространство земли, омываемое морями и океанами, суша.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Continent - а vast expanse of land, washed by the seas and oceans, land.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

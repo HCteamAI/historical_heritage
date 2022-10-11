@@ -1,0 +1,33 @@
+concept_mythological_genre
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[мифологический жанр]
+	(*
+	<- lang_ru;;
+	*);
+	[mythological genre]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/mythological_genre_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/mythological_genre_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мифологический жанр)](*<-lang_ru;;*);
+		[Pic. (mythological genre)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/mythological_genre.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_sculpture_genre;;

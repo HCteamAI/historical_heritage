@@ -1,0 +1,16 @@
+concept_ethnological_legend
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[этнологическая легенда](*<-lang_ru;;*);
+	[ethnological legend](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_using_constants: concept_etiological_legend;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://html/concept_ethnological_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html/concept_ethnological_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

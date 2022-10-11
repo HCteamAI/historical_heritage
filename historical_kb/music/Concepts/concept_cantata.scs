@@ -1,0 +1,40 @@
+concept_cantata
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_cantata];
+
+=> nrel_main_idtf:
+	[кантата]
+	(*
+	<- lang_ru;;
+	*);
+	[cantata]
+	(*
+	<- lang_en;;
+	*);
+	[кантата]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кантата — вокально-инструментальное произведение для солистов, хора и оркестра.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Кантата - вакальна-інструментальны твор для салістаў, хору і аркестра.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

@@ -1,0 +1,19 @@
+nrel_period_of_ownership
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [period of ownership*](*<- lang_en;;*);
+    [период владения*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_period_of_ownership_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_period_of_ownership_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_structure;
+=>nrel_second_domain:concept_human;
+=>nrel_third_domain:interval_value;
+
+<= nrel_inclusion : ternary_relation ; nrel_temporal_part;;

@@ -1,0 +1,40 @@
+concept_requiem
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_requiem];
+
+=> nrel_main_idtf:
+	[реквием]
+	(*
+	<- lang_ru;;
+	*);
+	[requiem]
+	(*
+	<- lang_en;;
+	*);
+	[рэквіем]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Реквием — заупокойная месса в католической церкви латинского обряда. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Рэквіем — памінальная імша ў каталіцкай царкве лацінскага абраду.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

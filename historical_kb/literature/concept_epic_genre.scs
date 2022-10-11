@@ -1,0 +1,26 @@
+concept_epic_genre
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[эпический жанр](*<-lang_ru;;*);
+	[epic genre](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_epic_genre_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_epic_genre_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+concept_epic_genre
+<= nrel_inclusion: {
+    concept_fable;
+    concept_novel;
+    concept_narrative;
+    concept_story;
+    concept_novelette;
+    concept_epopee;
+    concept_essay
+};;

@@ -1,0 +1,45 @@
+section_subject_domain_of_belarusian_architecture
+
+=>nrel_system_idtf:
+	[section_subject_domain_of_belarusian_architecture];
+=>nrel_main_idtf:
+	[Section. Subject domain of belarusian architecture](*<-lang_en;;*);
+=>nrel_main_idtf:
+	[Раздел. Предметная область белорусской архитектуры](*<-lang_ru;;*);
+
+-> rrel_key_sc_element:
+	subject_domain_of_belarusian_architecture;
+	
+<= nrel_section_decomposition:
+	section_subject_domain_of_architecture;
+	
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+
+
+
+
+
+subject_domain_of_belarusian_architecture
+
+=>nrel_system_idtf:
+	[subject_domain_of_belarusian_architecture];
+
+=> nrel_main_idtf:
+	[Предметная область белорусской архитектуры]
+	(*<-lang_ru;;*);
+	[Subject domain of belarusian architecture]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	peter_and_paul_cathedral;
+   	brest_fortress;
+   	
+<= nrel_private_subject_domain:
+	subject_domain_of_architecture;
+	
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

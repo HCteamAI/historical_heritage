@@ -1,0 +1,38 @@
+concept_lake
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[озеро]
+	(*
+	<- lang_ru;;
+	*);
+	[lake]
+	(*
+	<- lang_en;;
+	*);	
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Озеро — это компонент гидросферы, представляющий собой естественно возникший водоём, заполненный в пределах озёрной чаши.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A lake is a component of the hydrosphere, which is a naturally occurring body of water filled within the lake bowl.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

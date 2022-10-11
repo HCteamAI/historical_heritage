@@ -1,0 +1,42 @@
+concept_dumplings
+<-sc_node_class;
+=>nrel_main_idtf:
+	[клёцки](*<-lang_ru;;*);
+	[dumplings](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_dumplings_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_dumplings_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (клёцки)](*<-lang_ru;;*);
+		[Pic. (dumplings)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_dumplings.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1860;
+=>nrel_origin: Italy;
+=>nrel_cooking_method: concept_boiling;
+=>nrel_dish_category: concept_main_course;
+<= nrel_inclusion:
+	Potato;
+	Onion;
+	Nutmeg;
+	Starch;
+	Salt;
+	Eggs;;
+

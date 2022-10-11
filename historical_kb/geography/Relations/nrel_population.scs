@@ -1,0 +1,45 @@
+nrel_population
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[количество населения*]
+	(*
+	<- lang_ru;;
+	*);
+	[population*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_social_economic_geography_object;
+	
+=> nrel_second_domain: 	
+	number;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Количество населения* - это бинарное отношение, описывающее количество людей, проживающих на данной географической местности.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Population* is a binary relation describing the number of people living in a given geographic area.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

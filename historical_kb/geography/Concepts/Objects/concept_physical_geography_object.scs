@@ -1,0 +1,44 @@
+concept_physical_geography_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[физико-географический объект]
+	(*
+	<- lang_ru;;
+	*);
+	[physical geography object]
+	(*
+	<- lang_en;;
+	*);
+<=nrel_subdividing:{
+	concept_water_object;
+	concept_biogeography_object;
+	concept_oceanography_object;
+	concept_gidrology_object;
+	concept_orography_object
+	};		
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Физико-географические объекты — существующие или существовавшие относительно устойчивые, характеризующиеся определенным местоположением целостные образования Земли, имеющую определенную структуру и свойства.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Physical-geographical objects - existing or existed relatively stable, holistic formations of the Earth characterized by a certain location, having a certain structure and properties.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

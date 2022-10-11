@@ -1,0 +1,22 @@
+concept_relief
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Рельеф]
+	(*
+	<- lang_ru;;
+	*);
+	[Relief]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/relief_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/relief_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_type_of_sculpture;;

@@ -1,0 +1,37 @@
+concept_ocean
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[океан]
+	(*
+	<- lang_ru;;
+	*);
+	[ocean]
+	(*
+	<- lang_en;;
+	*);	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Океан - весь водный покров земли или его часть между материками.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Ocean - the entire water cover of the earth or part of it between the continents.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

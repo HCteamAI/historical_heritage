@@ -1,0 +1,36 @@
+section_subject_domain_of_localities->[*
+
+sc_node_not_relation->subject_domain_of_localities;
+	concept_locality;;
+
+section_subject_domain_of_localities=>nrel_system_idtf:[section_subject_domain_of_localities];
+	=>nrel_main_idtf:[Section. Subject domain of localities](*<-lang_en;;*);
+	=>nrel_main_idtf:[Раздел. Предметная область населенных пунктов](*<-lang_ru;;*);
+				
+->rrel_key_sc_element:
+	subject_domain_of_localities;
+	concept_town;
+	concept_urban_village;
+	concept_village;
+	concept_farm;
+	concept_locality;
+
+<-atomic_section;;
+
+section_subject_domain_of_localities = [*
+
+subject_domain_of_localities=>nrel_system_idtf:[subject_domain_of_localities];
+	=>nrel_main_idtf:[Subject domain of localities](*<-lang_en;;*);
+	=>nrel_main_idtf:[Предметная область населенных пунктов](*<-lang_ru;;*);
+
+->rrel_maximum_studied_object_class:concept_locality;
+
+->rrel_not_maximum_studied_object_class:	
+	concept_town;
+	concept_urban_village;
+	concept_village;
+	concept_farm;
+	
+<-subject_domain;;
+*];;
+*];;

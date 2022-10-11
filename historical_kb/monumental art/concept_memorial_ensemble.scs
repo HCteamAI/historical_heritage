@@ -1,0 +1,35 @@
+concept_memorial_ensemble
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Мемориальный ансамбль]
+	(*
+	<- lang_ru;;
+	*);
+	[Memorial ensemble]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/memorial_ensemble_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/memorial_ensemble_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мемориальный ансамбль)](*<-lang_ru;;*);
+		[Pic. (Memorial ensemble)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/historical_genre.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<- historical_monuments;
+<= nrel_inclusion: concept_historical_genre;;
+

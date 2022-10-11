@@ -1,0 +1,40 @@
+concept_cantilena
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_cantilena];
+
+=> nrel_main_idtf:
+	[кантилена]
+	(*
+	<- lang_ru;;
+	*);
+	[cantilena]
+	(*
+	<- lang_en;;
+	*);
+	[кантылена]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Кантилена — широкая, свободно льющаяся напевная мелодия: как вокальная, так и инструментальная.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Кантылена – шырокая, свабодна льючаяся напеўная мелодыя: як вакальная, так і інструментальная.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

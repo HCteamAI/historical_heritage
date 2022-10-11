@@ -1,0 +1,40 @@
+concept_geography_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[географический объект]
+	(*
+	<- lang_ru;;
+	*);
+	[geography object]
+	(*
+	<- lang_en;;
+	*);
+		
+=> nrel_inclusion:concept_social_economic_geography_object;
+=> nrel_inclusion:concept_physical_geography_object;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Географические объекты — существующие или существовавшие относительно устойчивые, характеризующиеся определенным местоположением целостные образования Земли.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[Geographical objects - existing or existed relatively stable, holistic formations of the Earth characterized by a certain location.]
+			(*
+			<- lang_en;;
+			*);;
+			
+		*);;
+
+	*);;
+

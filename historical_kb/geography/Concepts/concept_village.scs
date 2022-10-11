@@ -1,0 +1,41 @@
+concept_village
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[село]
+	(*
+	<- lang_ru;;
+	*);
+	[деревня]
+	(*
+	<- lang_ru;;
+	*);
+	[village]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Деревня - сельская местность, а также сельское население, крестьянство.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The village is the countryside, as well as the rural population, the peasantry.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

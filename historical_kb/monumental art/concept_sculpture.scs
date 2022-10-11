@@ -1,0 +1,27 @@
+concept_sculpture
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Скульптура]
+	(*
+	<- lang_ru;;
+	*);
+	[Sculpture]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/sculpture_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/sculpture_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<= nrel_section_decomposition: 
+	{
+		concept_method_of_making_sculpture;
+	    concept_sculpture_genre;
+	    concept_type_of_sculpture	    
+	};;

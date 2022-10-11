@@ -1,0 +1,42 @@
+concept_perepecha
+<-sc_node_class;
+=>nrel_main_idtf:
+	[перепеча](*<-lang_ru;;*);
+	[perepecha](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_perepecha_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_perepecha_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (перепеча)](*<-lang_ru;;*);
+		[Pic. (perepecha)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_perepecha.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1580;
+=>nrel_origin: Russian_state;
+=>nrel_cooking_method: concept_baking;
+=>nrel_dish_category: concept_appetizer;
+<= nrel_inclusion:
+	Milk;
+	Flour;
+	Eggs;
+	Sugar;
+	Butter;
+	Salt;
+	Yeast;;
+

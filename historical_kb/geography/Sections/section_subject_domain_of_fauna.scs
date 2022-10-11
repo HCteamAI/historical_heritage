@@ -1,0 +1,31 @@
+section_subject_domain_of_fauna->[*
+
+sc_node_not_relation->subject_domain_of_fauna;
+	section_subject_domain_of_fauna;
+	concept_fauna_object;;
+
+section_subject_domain_of_fauna=>nrel_system_idtf:[section_subject_domain_of_fauna];
+	=>nrel_main_idtf:[Section. Subject domain of fauna](*<-lang_en;;*);
+	=>nrel_main_idtf:[Раздел. Предметная область фауны](*<-lang_ru;;*);
+	
+				
+->rrel_key_sc_element:
+	subject_domain_of_fauna;
+	concept_animal;
+	nrel_fauna_representative;
+	
+<-atomic_section;;
+
+section_subject_domain_of_fauna = [*
+
+subject_domain_of_fauna=>nrel_system_idtf:[subject_domain_of_fauna];
+	=>nrel_main_idtf:[Subject domain of fauna](*<-lang_en;;*);
+	=>nrel_main_idtf:[Предметная область фауны](*<-lang_ru;;*);
+
+->rrel_explored_relation:nrel_fauna_representative;
+
+->rrel_maximum_studied_object_class:concept_animal;
+	
+<-subject_domain;;
+*];;
+*];;

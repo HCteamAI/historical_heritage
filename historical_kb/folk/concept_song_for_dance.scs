@@ -1,0 +1,16 @@
+concept_song_for_dance
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[песня для танцев, игр](*<-lang_ru;;*);
+	[song for dance](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_using_constants: concept_non_ritual_song; concept_celebration;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://html/concept_dance_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html/concept_dance_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

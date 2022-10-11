@@ -1,0 +1,35 @@
+Memorial_complex_Brest_Hero_Fortress<- sc_node_not_relation;
+<-concept_sculpture;
+
+=>nrel_main_idtf:
+[Memorial complex "Brest Hero Fortress"](* <- lang_en;; *);
+[Мемориальный комплекс "Брестская крепость-герой](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/Memorial_complex_Brest_Hero_Fortress_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/Memorial_complex_Brest_Hero_Fortress_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/Memorial_complex_Brest_Hero_Fortress.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_historical_genre;
+<-concept_thematic_composition;
+<-concept_memorial_ensemble;
+=>rrel_sculptor:Alexander_Kibalnikov;	
+=>rrel_erection_date:1971;
+=>rrel_location:Brest;
+<- concept_round_sculpture;
+<-concept_sculptural_group;
+<- historical_monuments;;
+

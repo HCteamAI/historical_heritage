@@ -1,0 +1,44 @@
+nrel_capital
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[столица*]
+	(*
+	<- lang_ru;;
+	*);
+	[capital*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_country;
+=> nrel_second_domain: 	
+	concept_town;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Столица* - главный город государства, место пребывания правительства и правительственных учреждений.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The capital* is the main city of the state, the seat of the government and government agencies.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

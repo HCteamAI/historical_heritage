@@ -1,0 +1,40 @@
+concept_vereshchak
+<-sc_node_class;
+=>nrel_main_idtf:
+	[верещака](*<-lang_ru;;*);
+	[vereshchak](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_vereshchak_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_vereshchak_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (верещака)](*<-lang_ru;;*);
+		[Pic. (vereshchak)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_vereshchak.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1750;
+=>nrel_origin: Grand_Duchy_of_Lithuania;
+=>nrel_cooking_method: concept_frying;
+=>nrel_dish_category: concept_main_course;
+<= nrel_inclusion:
+	Pork;
+	Kvass;
+	Bay_leaf;
+	Black_pepper;
+	Onion_vegetables;;
+

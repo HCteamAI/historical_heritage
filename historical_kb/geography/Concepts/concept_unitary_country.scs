@@ -1,0 +1,37 @@
+concept_unitary_country
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[унитарное государство]
+	(*
+	<- lang_ru;;
+	*);
+	[unitary country]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Унита́рное госуда́рство— форма государственного устройства, при которой государство не имеет в своём составе каких-либо государственных образований, обладающих элементами суверенности.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A unitary country is a form of government in which the state does not include any state entities that have elements of sovereignty.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

@@ -1,0 +1,38 @@
+concept_pond
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[пруд]
+	(*
+	<- lang_ru;;
+	*);
+	[pond]
+	(*
+	<- lang_en;;
+	*);	
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Пруд - это искусственный водоём для хранения воды с целью водоснабжения, орошения, разведения рыбы и водоплавающей птицы.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A pond is an artificial reservoir for storing water for the purpose of water supply, irrigation, breeding of fish and waterfowl.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

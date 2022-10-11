@@ -1,0 +1,19 @@
+nrel_border_on
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- non_oriented_relation;
+=> nrel_main_idtf:
+	[граничить с*]
+	(*
+	<- lang_ru;;
+	*);
+	[border on*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_geography_object;
+=> nrel_second_domain: 	
+	concept_geography_object;;

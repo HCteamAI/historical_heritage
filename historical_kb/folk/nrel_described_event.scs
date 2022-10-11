@@ -1,0 +1,36 @@
+nrel_described_event
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [described event*](*<- lang_en;;*);
+    [описываемые события*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+   
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://html/nrel_event_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://html/nrel_event_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_composition;
+=>nrel_second_domain:concept_event;
+
+<-binary_relation; 
+<-antireflexive_relation;
+<-antitransitive_relation;
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (описываемые события*)](*<-lang_ru;;*);
+		    [Pic. (described event*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://pictures/nrel_best_day_ever3.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+        <= nrel_using_constants:{
+       concept_composition;
+       concept_event
+    };;
+*);;

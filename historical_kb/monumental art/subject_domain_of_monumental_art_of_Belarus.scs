@@ -1,0 +1,42 @@
+section_subject_domain_of_monumental_art_of_Belarus
+
+<= nrel_section_decomposition: section_subject_domain_of_monumental_art;
+
+=>nrel_system_idtf:
+	[section_subject_domain_of_monumental_art_of_Belarus];
+=>nrel_main_idtf:
+	[Section. Subject domain of monumental art of Belarus](*<-lang_en;;*);
+=>nrel_main_idtf:
+	[Раздел. Предметная область белорусского монументального искусства](*<-lang_ru;;*);
+
+
+-> rrel_key_sc_element:
+	subject_domain_of_monumental_art_of_Belarus;
+	
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+subject_domain_of_monumental_art_of_Belarus
+
+=> nrel_main_idtf:
+	[Предметная область монументального искусства Беларуси]
+	(*<-lang_ru;;*);
+	[Subject domain of monumental art of Belarus]
+	(*<-lang_en;;*);
+	
+	
+-> rrel_not_maximum_studied_object_class:
+	Memorial_complex_Brest_Hero_Fortress;
+    Alexander_Kibalnikov;
+    Victory_Monument;
+    Unbowed_man;
+    Mass_grave_Heroes_of_great_Patriotic_War;
+     Alexander_Kibalnikov;
+     Genady_Buralkin;
+     George_Zaborsky;
+     Sergey_Selikhanov;
+     
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

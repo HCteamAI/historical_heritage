@@ -1,0 +1,39 @@
+concept_state
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[штат]
+	(*
+	<- lang_ru;;
+	*);
+	[state]
+	(*
+	<- lang_en;;
+	*);
+	
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Штат — в ряде федеративных образований название административно-территориальных единиц, обладающих определённым уровнем суверенитета.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[State - in a number of federative entities, the name of administrative-territorial units that have a certain level of sovereignty.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

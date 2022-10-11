@@ -1,0 +1,28 @@
+concept_still_life_genre
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[натюрморт](*<-lang_ru;;*);
+	[still-life](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_still_life_genre_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_still_life_genre_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_still_life_genre
+<= nrel_inclusion: {
+    concept_fruit_still_life;
+    concept_scientist_still_life;
+    concept_flower_still_life;
+    concept_plot_thematic_still_life;
+    concept_religious_still_life;
+    concept_vegetable_still_life;
+    concept_musical_still_life;
+    concept_kitchen_still_life;
+    concept_wine_still_life
+};;

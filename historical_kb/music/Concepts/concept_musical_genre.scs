@@ -1,0 +1,54 @@
+concept_musical_genre
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_musical_genre];
+
+=> nrel_main_idtf:
+	[музыкальный жанр]
+	(*
+	<- lang_ru;;
+	*);
+	[musical genre]
+	(*
+	<- lang_en;;
+	*);
+	[музыкальны жанр]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музыкальный жанр — род музыки, музыкальных произведений, характеризующийся определёнными сюжетными, композиционными, стилистическими и др. признаками; а также отдельные разновидности этого рода. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Музычны жанр - род музыкі, музычных твораў, які характарызуецца пэўнымі сюжэтнымі, кампазіцыйнымі, стылістычнымі і інш. Прыкметамі; а таксама асобныя разнавіднасці гэтага роду.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+=>nrel_inclusion:
+ concept_folk_music;
+ concept_classical_music;
+ concept_country_music;
+ concept_latina_music;
+ concept_blues_music;
+ concept_jazz_music;
+ concept_chanson_music;
+ concept_electro_music;
+ concept_rock_music;
+ concept_hip_hop_music;
+ concept_pop_music;;
+  

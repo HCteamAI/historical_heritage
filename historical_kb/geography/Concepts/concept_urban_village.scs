@@ -1,0 +1,37 @@
+concept_urban_village
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[поселок городского типа]
+	(*
+	<- lang_ru;;
+	*);
+	[urban village]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Посёлок городско́го ти́па — тип населённого пункта, выделенный во времена Союза ССР и распространённый до сих пор в ряде государств и стран.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[An urban-type settlement is a type of settlement identified during the Soviet Union and still widespread in a number of states and countries.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

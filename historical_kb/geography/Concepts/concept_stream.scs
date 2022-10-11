@@ -1,0 +1,38 @@
+concept_stream
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ручей]
+	(*
+	<- lang_ru;;
+	*);
+	[stream]
+	(*
+	<- lang_en;;
+	*);	
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Ручей — это небольшой водный поток.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A stream is a small stream of water.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

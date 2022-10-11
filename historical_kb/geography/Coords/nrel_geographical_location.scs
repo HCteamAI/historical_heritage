@@ -1,0 +1,44 @@
+nrel_geographical_location
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[географическое местоположение*]
+	(*
+	<- lang_ru;;
+	*);
+	[geographical location*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_geography_object;
+=> nrel_second_domain: 	
+	concept_mapped_object;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Географическое положение* — положение географического объекта относительно поверхности Земли, а также по отношению к другим объектам, с которыми он находится во взаимодействии.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Geographical location* - the position of a geographical object relative to the surface of the Earth, as well as in relation to other objects with which it interacts.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

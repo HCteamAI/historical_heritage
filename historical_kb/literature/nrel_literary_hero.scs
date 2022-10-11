@@ -1,0 +1,31 @@
+nrel_literary_hero <- sc_node_norole_relation;
+
+=> nrel_main_idtf:
+    [literary hero*](*<- lang_en;;*);
+    [литературный герой*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+   
+
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_literary_hero_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_literary_hero_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_literary_work;
+=>nrel_second_domain:quasi_material_entity;
+
+<- binary_relation ; antireflexive_relation ; antitransitive_relation ;
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (литературный герой*)](*<-lang_ru;;*);
+		    [Pic. (literary hero*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://IMG/nrel_literary_hero.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+*);;

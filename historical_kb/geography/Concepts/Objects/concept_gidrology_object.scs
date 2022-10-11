@@ -1,0 +1,47 @@
+concept_gidrology_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[гидрологический объект]
+	(*
+	<- lang_ru;;
+	*);
+	[gidrology object]
+	(*
+	<- lang_en;;
+	*);
+	
+=>nrel_inclusion:
+	concept_river;
+	concept_lake;
+	concept_swamp;
+	concept_reservoir;
+	concept_stream;
+	concept_underwater;
+	concept_pond;
+	concept_rill;		
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Предмет гидрологии - природные воды Земли и процессы, в них происходящие при взаимодействии с атмосферой, литосферой и биосферой и с учётом влияния хозяйственной деятельности человека.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The subject of gidrology is the natural waters of the Earth and the processes occurring in them when interacting with the atmosphere, lithosphere and biosphere and taking into account the influence of human economic activity.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

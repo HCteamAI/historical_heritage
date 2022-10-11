@@ -1,0 +1,38 @@
+concept_swamp
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[болото]
+	(*
+	<- lang_ru;;
+	*);
+	[swamp]
+	(*
+	<- lang_en;;
+	*);	
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Болото - это топкое место со стоячей водой.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A swamp is a swampy place with stagnant water.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

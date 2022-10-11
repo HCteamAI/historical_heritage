@@ -1,0 +1,19 @@
+subject_domain_of_legend
+
+=> nrel_main_idtf:
+	[Предметная область легенд]
+	(*<-lang_ru;;*);
+	[Subject domain of legend]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_legend;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_etiological_legend;
+	concept_urban_legend;
+	concept_religious_and_instructive_legend;
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

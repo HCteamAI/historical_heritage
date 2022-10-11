@@ -1,0 +1,29 @@
+concept_poem
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[поэма](*<-lang_ru;;*);
+	[poem](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_poem_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_poem_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (поэма)](*<-lang_ru;;*);
+		[Pic. (poem)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_poem.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

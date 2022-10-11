@@ -1,0 +1,38 @@
+concept_town
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[город]
+	(*
+	<- lang_ru;;
+	*);
+	[town]
+	(*
+	<- lang_en;;
+	*);
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Го́род — крупный населённый пункт, жители которого заняты, как правило, не сельским хозяйством.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A city is a large settlement whose inhabitants are, as a rule, engaged in non-agriculture.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

@@ -1,0 +1,34 @@
+Mass_grave_Heroes_of_great_Patriotic_War<- sc_node_not_relation;
+<-concept_sculpture;
+
+=>nrel_main_idtf:
+[Mass grave Heroes of great Patriotic War](* <- lang_en;; *);
+[Мемориальный ансамбль воинам-пограничникам в Гродно](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/Memorial_Ensemble_to_Soldiers-Border_Guards_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/Memorial_Ensemble_to_Soldiers-Border_Guards_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/Memorial_Ensemble_to_Soldiers-Border_Guards.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_historical_genre;
+<- concept_memorial_ensemble;
+=>rrel_sculptor:Genady_Buralkin;	
+=>rrel_location:Grodno;
+=>rrel_erection_date:2004;
+<- concept_round_sculpture;
+<- concept_sculptural_group;
+<- historical_monuments;;
+

@@ -1,0 +1,45 @@
+nrel_fauna_representative
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[представитель фауны*]
+	(*
+	<- lang_ru;;
+	*);
+	[fauna representative*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_country;
+	
+=> nrel_second_domain: 	
+	concept_animal;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Представитель фауны* - это бинарное отношение, описывающее принадлежность животного к биоте определенной географической местности.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[fauna representative* is a binary relation that describes the belonging of an animal to the biota of a certain geographical area.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

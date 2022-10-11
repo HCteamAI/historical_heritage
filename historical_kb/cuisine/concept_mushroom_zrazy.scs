@@ -1,0 +1,31 @@
+concept_mushroom_zrazy
+<-sc_node_class;
+=>nrel_main_idtf:
+	[грибные зразы](*<-lang_ru;;*);
+	[mushroom zrazy](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_mushroom_zrazy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1861;
+=>nrel_origin: Russian_empire;
+=>nrel_cooking_method: concept_frying;
+=>nrel_dish_category: concept_main_course;
+<= nrel_inclusion:
+	Potato;
+	White_mushrooms;
+	Flour;
+	Onion;
+	Eggs;
+	Vegetable_oil;
+	Breadcrumbs;
+	Salt;
+	Black_pepper;;
+

@@ -1,0 +1,10 @@
+section_subject_domain_of_language
+
+=>nrel_system_idtf:[section_subject_domain_of_language];
+=>nrel_main_idtf:[Section. Subject domain of languages](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область языков](*<-lang_ru;;*);
+
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+

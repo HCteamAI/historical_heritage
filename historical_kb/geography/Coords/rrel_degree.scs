@@ -1,0 +1,43 @@
+rrel_degree
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+
+=> nrel_main_idtf:
+	[градус']
+	(*
+	<- lang_ru;;
+	*);
+	[degree']
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_number;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Градус — единица измерения плоских углов.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Degree is a unit of measure for planar angles.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+	*);;
+
+

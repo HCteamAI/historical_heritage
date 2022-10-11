@@ -1,0 +1,28 @@
+concept_ode
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[ода](*<-lang_ru;;*);
+	[ode](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_ode_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_ode_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (ода)](*<-lang_ru;;*);
+		[Pic. (ode)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_ode.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

@@ -1,0 +1,38 @@
+concept_federation_country
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[федеративное государство]
+	(*
+	<- lang_ru;;
+	*);
+	[federation country]
+	(*
+	<- lang_en;;
+	*);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Федера́ция — форма государственного устройства, при которой части государства являются государственными образованиями, обладающими юридически определённой политической самостоятельностью в рамках федерации.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Federation - a form of government in which parts of the state are state entities that have legally defined political independence within the federation.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

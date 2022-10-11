@@ -1,0 +1,38 @@
+concept_cregion
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[область]
+	(*
+	<- lang_ru;;
+	*);
+	[cregion]
+	(*
+	<- lang_en;;
+	*);
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Область — административно-территориальная единица Армении, Белоруссии, Болгарии, Казахстана, Киргизии и Украины, единица федерального деления современной России.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The region is an administrative-territorial unit of Armenia, Belarus, Bulgaria, Kazakhstan, Kyrgyzstan and Ukraine, a unit of the federal division of modern Russia.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

@@ -1,0 +1,20 @@
+nrel_dish_category
+<- oriented_relation;
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [dish category*](*<- lang_en;;*);
+    [категория блюда*](*<- lang_ru;;*);
+
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://HTML/nrel_dish_category_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://HTML/nrel_dish_category_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain: concept_dish;
+=>nrel_second_domain: concept_dish_category;
+
+<= nrel_inclusion : binary_relation ; antireflexive_relation ; antitransitive_relation ;;

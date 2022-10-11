@@ -1,0 +1,32 @@
+concept_landscape_genre
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[пейзаж](*<-lang_ru;;*);
+	[landscape](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_landscape_genre_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_landscape_genre_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_landscape_genre
+<= nrel_inclusion: {
+    concept_rural_landscape;
+    concept_cityscape;
+    concept_architectural_landscape;
+    concept_industrial_landscape;
+    concept_seascape;
+    concept_riverscape;
+    concept_space_landscape;
+    concept_historical_landscape;
+    concept_fantasy_landscape;
+    concept_lyrical_landscape;
+    concept_heroic_landscape;
+    concept_park_landscape;
+    concept_natural_landscape 
+};;

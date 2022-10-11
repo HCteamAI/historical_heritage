@@ -1,0 +1,40 @@
+material_historical_and_cultural_value
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[material_historical_and_cultural_value];
+
+=> nrel_main_idtf:
+	[материальная историко-культурная ценность]
+	(*
+	<- lang_ru;;
+	*);
+	[material historical and cultural value]
+	(*
+	<- lang_en;;
+	*);
+	[матэрыяльная гісторыка-культурная каштоўнасць]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Материальная историко-культурная ценность – это историко-культурая ценность, имеющая физическое воплощение в реальном мире.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Матэрыяльная гісторыка-культурная каштоўнасць - гэта гісторыка-культурная каштоўнасць, якая мае фізічнае ўвасабленне ў рэальным свеце.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

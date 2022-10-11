@@ -1,0 +1,27 @@
+concept_fruit_still_life
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[фруктовый натюрморт](*<-lang_ru;;*);
+	[fruit still life](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_fruit_still_life_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_fruit_still_life_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (фруктовый натюрморт)](*<-lang_ru;;*);
+		[Pic. (fruit still life)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_fruit_still_life.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

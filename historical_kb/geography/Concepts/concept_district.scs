@@ -1,0 +1,37 @@
+concept_district
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[округ]
+	(*
+	<- lang_ru;;
+	*);
+	[district]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Округ - административно-политическое, хозяйственное, военное и т. д. подразделение государственной территории.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The district is an administrative-political, economic, military, etc. subdivision of the state territory.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

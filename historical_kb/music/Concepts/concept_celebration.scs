@@ -1,0 +1,143 @@
+concept_celebration
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_celebration];
+
+=> nrel_main_idtf:
+	[праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[celebration]
+	(*
+	<- lang_en;;
+	*);
+	[свята]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Праздник — отрезок времени, выделенный в течение календарного года в честь чего-либо или кого-либо, имеющий сакральное (небытовое, мифическое) значение и связанный с культурной или религиозной традицией.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Свята - адрэзак часу, выдзелены на працягу каляндарнага года ў гонар чаго-небудзь ці каго-небудзь, які мае сакральнае (небытавое, міфічнае) значэнне і звязаны з культурнай або рэлігійнай традыцыяй.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+<=nrel_subdividing:
+  {
+    concept_world_celebration;
+    concept_official_celebration;
+    concept_national_celebration;
+    concept_professional_celebration;
+    concept_family_celebration;
+    concept_religious_celebration;
+    concept_personal_celebration
+  };;
+  
+  
+concept_world_celebration
+=>nrel_system_idtf:[concept_world_celebration];
+
+=> nrel_main_idtf:
+	[всемирный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[world celebration]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_official_celebration
+=>nrel_system_idtf:[concept_official_celebration];
+
+=> nrel_main_idtf:
+	[государственный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[official celebration]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_national_celebration
+=>nrel_system_idtf:[concept_national_celebration];
+
+=> nrel_main_idtf:
+	[народный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[national celebration]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_professional_celebration
+=>nrel_system_idtf:[concept_professional_celebration];
+
+=> nrel_main_idtf:
+	[профессиональный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[professional celebration]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_family_celebration
+=>nrel_system_idtf:[concept_family_celebration];
+
+=> nrel_main_idtf:
+	[семейный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[family celebration]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_religious_celebration
+=>nrel_system_idtf:[concept_religious_celebration];
+
+=> nrel_main_idtf:
+	[религиозный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[religious celebration]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_personal_celebration
+=>nrel_system_idtf:[concept_personal_celebration];
+
+=> nrel_main_idtf:
+	[персональный праздник]
+	(*
+	<- lang_ru;;
+	*);
+	[personal celebration]
+	(*
+	<- lang_en;;
+	*);;

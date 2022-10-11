@@ -1,0 +1,43 @@
+concept_region
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[регион]
+	(*
+	<- lang_ru;;
+	*);
+	[region]
+	(*
+	<- lang_en;;
+	*);
+	
+<=nrel_subdividing:{
+	concept_state;
+	concept_cregion;
+	concept_district
+	};
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Регион — слово, используемое для обозначения участка суши или воды, который можно отделить от другого участка по ряду определённых критериев.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Region is a word used to refer to an area of land or water that can be separated from another area according to a number of specific criteria.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

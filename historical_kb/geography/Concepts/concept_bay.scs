@@ -1,0 +1,37 @@
+concept_bay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[залив]
+	(*
+	<- lang_ru;;
+	*);
+	[bay]
+	(*
+	<- lang_en;;
+	*);	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Залив - это водное пространство, вдавшееся в сушу.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A bay is an expanse of water that extends into land.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

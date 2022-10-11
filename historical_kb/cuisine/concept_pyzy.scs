@@ -1,0 +1,32 @@
+concept_pyzy
+<-sc_node_class;
+=>nrel_main_idtf:
+	[пызы](*<-lang_ru;;*);
+	[pyzy](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_pyzy.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1460;
+=>nrel_origin: Kingdom_of_Bohemia;
+=>nrel_cooking_method: concept_frying;
+=>nrel_dish_category: concept_main_course;
+<= nrel_inclusion:
+	Potato;
+	Flour;
+	Cottage_cheese;
+	Starch;
+	Salt;
+	Minced_pork;
+	Onion;
+	Vegetable_oil;
+	Black_pepper;
+	Water;;
+

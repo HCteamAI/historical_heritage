@@ -1,0 +1,14 @@
+section_subject_domain_of_monumental_art
+<- section;
+
+
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по историко-культурному наследию Беларуси, описывающий монументальное искусство.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_monumental_art;;
+section_subject_domain_of_monumental_art = [*^"file://subject_domain_of_monumental_art.scsi"*];;

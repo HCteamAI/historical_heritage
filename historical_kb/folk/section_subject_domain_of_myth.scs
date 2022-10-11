@@ -1,0 +1,27 @@
+section_subject_domain_of_myth
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область мифов]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of myths]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по фольклору, описывающий виды мифов.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_myth;
+	concept_myth;
+    concept_heroic_myth;
+	concept_cosmogonic_myth;
+	concept_astral_solar_lunar_myth;
+	concept_twin_myth;
+	concept_totemic_myth;
+	concept_calendar_myth;
+	concept_etiological_myth;;
+
+section_subject_domain_of_myth = [*^"file://subject_domain_of_myth.scsi"*];;

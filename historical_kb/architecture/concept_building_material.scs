@@ -1,0 +1,28 @@
+concept_building_material
+<-sc_node_not_relation;
+-> brick;
+=>nrel_main_idtf:
+	[строительный материал](*<-lang_ru;;*);
+	[building material](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_building_material_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_building_material_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (строительный материал)](*<-lang_ru;;*);
+		[Pic. (building material)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/concept_building_material.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

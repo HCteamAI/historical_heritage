@@ -1,0 +1,71 @@
+concept_tradition
+
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_tradition];
+
+=> nrel_main_idtf:
+	[традиция]
+	(*
+	<- lang_ru;;
+	*);
+	[tradition]
+	(*
+	<- lang_en;;
+	*);
+	[традыцыя]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Традиция — сложившаяся анонимно, в результате накопленного опыта, система норм, представлений, правил и образцов, которой руководствуется в своём поведении довольно обширная и стабильная группа людей. Традиции передаются из поколения в поколение и выступают одним из регуляторов общественных отношений. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Традыцыя - якая склалася ананімна, у выніку назапашанага вопыту, сістэма норм, уяўленняў, правіл і ўзораў, якой кіруецца ў сваіх паводзінах даволі шырокая і стабільная група людзей. Традыцыі перадаюцца з пакалення ў пакаленне і выступаюць адным з рэгулятараў грамадскіх адносін.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+=>nrel_inclusion:
+    concept_common_tradition;
+    concept_national_tradition;;
+  
+  
+concept_common_tradition
+=>nrel_system_idtf:[concept_common_tradition];
+
+=> nrel_main_idtf:
+	[общенародная традиция]
+	(*
+	<- lang_ru;;
+	*);
+	[common tradition]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_national_tradition
+=>nrel_system_idtf:[concept_national_tradition];
+
+=> nrel_main_idtf:
+	[национальная традиция]
+	(*
+	<- lang_ru;;
+	*);
+	[national tradition]
+	(*
+	<- lang_en;;
+	*);;

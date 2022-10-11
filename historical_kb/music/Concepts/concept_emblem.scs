@@ -1,0 +1,142 @@
+concept_coat_of_arms
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_coat_of_arms];
+
+=> nrel_main_idtf:
+	[герб]
+	(*
+	<- lang_ru;;
+	*);
+	[coat of arms]
+	(*
+	<- lang_en;;
+	*);
+	[герб]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Герб — визуальный (то есть, существующий прежде всего в виде изображения) опознавательный знак, составленный и употребляемый по правилам геральдики, служащий для отличия владельца (личности, семьи, рода; населённого пункта, города, территории, государства, межгосударственного объединения; общественной, профессиональной, социальной или иной корпорации) от других.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Герб - візуальны (гэта значыць, існуючы перш за ўсё ў выглядзе малюнка) апазнавальны знак, складзены і ужывальны па правілах геральдыкі, служачы для адрознення ўладальніка (асобы, сям'і, роды; населенага пункта, горада, тэрыторыі, дзяржавы, міждзяржаўнага аб'яднання; грамадскай, прафесійнай , сацыяльнай ці іншай карпарацыі) ад іншых.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+=>nrel_inclusion:
+    concept_coat_of_arms_of_states;
+    concept_coat_of_arms_of_territorial_entities;
+    concept_coat_of_arms_of_military_entities;;
+  
+concept_coat_of_arms_of_states
+=>nrel_system_idtf:[concept_coat_of_arms_of_states];
+
+=> nrel_main_idtf:
+	[государственный герб]
+	(*
+	<- lang_ru;;
+	*);
+	[coat of arms of states]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_coat_of_arms_of_territorial_entities
+=>nrel_system_idtf:[concept_coat_of_arms_of_territorial_entities];
+
+=> nrel_main_idtf:
+	[герб территориального субъекта]
+	(*
+	<- lang_ru;;
+	*);
+	[coat of arms of territorial entities]
+	(*
+	<- lang_en;;
+	*);;
+	
+concept_coat_of_arms_of_military_entities
+=>nrel_system_idtf:[concept_coat_of_arms_of_military_entities];
+
+=> nrel_main_idtf:
+	[герб военного субъекта]
+	(*
+	<- lang_ru;;
+	*);
+	[coat of arms of military entities]
+	(*
+	<- lang_en;;
+	*);;
+
+	
+	
+	
+coat_of_arms_of_Belarus
+<- sc_node_not_relation;
+<- concept_coat_of_arms;
+<- concept_coat_of_arms_of_states;
+
+=> nrel_main_idtf:
+	[Государственный герб Беларуси]
+	(* <- lang_ru;;	*);
+	[Дзяржаўны герб Беларусі]
+	(* <- lang_by;;	*);
+	[The State Emblem of Belarus]
+	(* <- lang_en;;	*);
+	
+
+=>nrel_state_symbol:
+	republic_of_belarus;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Государственный герб Беларуси - символ государственного суверенитета Республики Беларусь. Он представляет собой размещенный в серебряном поле золотой контур Государственной границы Республики Беларусь, наложенный на золотые лучи восходящего над земным шаром солнца. Вверху поля находится пятиконечная красная звезда. Герб обрамлен венком из золотых колосьев, переплетенных справа цветками клевера, слева - цветками льна. Венок трижды перевит с каждой стороны красно-зеленой лентой, в средней части которой в основании Государственного герба Республики Беларусь в две строки начертаны золотом слова "Рэспубліка Беларусь".](*<-lang_ru;;*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The State Emblem of Belarus is a symbol of the state sovereignty of the Republic of Belarus. It is a golden outline of the State Border of the Republic of Belarus placed in a silver field, superimposed on the golden rays of the sun rising over the globe. At the top of the field is a five-pointed red star. The coat of arms is framed by a wreath of golden ears intertwined with clover flowers on the right and flax flowers on the left. The wreath is intertwined three times on each side with a red-green ribbon, in the middle part of which, at the base of the State Emblem of the Republic of Belarus, the words "Рэспубліка Беларусь" are inscribed in two lines in gold.](*<-lang_en;;*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Дзяржаўны герб Беларусі - сімвал дзяржаўнага суверэнітэту Рэспублікі Беларусь. Ён уяўляе сабой размешчаны ў сярэбраным полі залаты контур Дзяржаўнай граніцы Рэспублікі Беларусь, накладзены на залатыя промні ўзыходзячага над зямным шарам сонца. Уверсе поля знаходзіцца пяціканцовая чырвоная зорка. Герб апраўлены вянком з залатых каласоў, пераплеценых справа кветкамі канюшыны, злева - кветкамі лёну. Вянок тройчы перавіты з кожнага боку чырвона-зялёнай стужкай, у сярэдняй частцы якой у падставе Дзяржаўнага герба Рэспублікі Беларусь у два радкі напісаны золатам словы "Рэспубліка Беларусь".](*<-lang_by;;*);;
+		*);;
+	*);
+	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Государственный герб Беларуси)](*<-lang_ru;;*);
+		[Мал. (Дзяржаўны герб Беларусі)](*<-lang_by;;*);
+		[Pic. (The State Emblem of Belarus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-image;;
+		->"file://emblem_of_Belarus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

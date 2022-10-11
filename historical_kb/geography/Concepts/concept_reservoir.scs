@@ -1,0 +1,37 @@
+concept_reservoir
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[водохранилище]
+	(*
+	<- lang_ru;;
+	*);
+	[reservoir]
+	(*
+	<- lang_en;;
+	*);	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Водохранилище - искусственный водоём для хранения или регулирования запасов воды.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Reservoir - an artificial reservoir for storing or regulating water supplies.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

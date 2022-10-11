@@ -1,0 +1,40 @@
+concept_serenade
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_serenade];
+
+=> nrel_main_idtf:
+	[серенада]
+	(*
+	<- lang_ru;;
+	*);
+	[serenade]
+	(*
+	<- lang_en;;
+	*);
+	[серэнада]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Серенада — музыкальная композиция, исполняемая в чью-то честь.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Серэнада - музычная кампазіцыя, выкананая ў нечы гонар.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

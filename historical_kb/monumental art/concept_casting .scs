@@ -1,0 +1,22 @@
+concept_casting 
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Отливка]
+	(*
+	<- lang_ru;;
+	*);
+	[Casting]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/casting_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/casting_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_method_of_making_sculpture;;

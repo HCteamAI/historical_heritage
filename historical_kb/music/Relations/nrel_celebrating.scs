@@ -1,0 +1,112 @@
+nrel_celebrating
+
+=>nrel_system_idtf:[nrel_celebrating];
+
+=>nrel_main_idtf:
+  [празднование*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [celebrating*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [святкаванне*] (* <-lang_by;; *);
+
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    professional_community;
+    nation;
+    family;
+    person;
+    religious_community;
+    concept_country;
+    concept_world;
+    
+    
+=> nrel_second_domain:
+    concept_celebration;
+
+<-relation;
+<- binary_relation;
+<- oriented_relation;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[празднование* - бинарное отношение, связывающее людей всего мира, конкретную группу людей, объединенных по определенному признаку (общая профессия, религия и т.д.), государство, семью или конкретного человека и праздник, который ими отмечается.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[святкаванне* - бінарнае стаўленне, якое звязвае людзей усяго свету, пэўную групу людзей, аб'яднаных па пэўнай прыкмеце (агульная прафесія, рэлігія і г.д.), дзяржава, сям'ю або канкрэтнага чалавека і свята, якое імі адзначаецца.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;
+	
+professional_community
+=>nrel_system_idtf:[professional_community];
+
+=>nrel_main_idtf:
+  [профессиональное сообщество] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [professional community] (* <-lang_en;; *);;
+  
+  
+nation
+=>nrel_system_idtf:[nation];
+
+=>nrel_main_idtf:
+  [народ] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [nation] (* <-lang_en;; *);;
+  
+  
+family
+=>nrel_system_idtf:[family];
+
+=>nrel_main_idtf:
+  [семья] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [family] (* <-lang_en;; *);;
+  
+  
+person
+=>nrel_system_idtf:[person];
+
+=>nrel_main_idtf:
+  [инвидум] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [person] (* <-lang_en;; *);;
+  
+  
+religious_community
+=>nrel_system_idtf:[religious_community];
+
+=>nrel_main_idtf:
+  [религиозное объединение] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [religious community] (* <-lang_en;; *);;
+  
+  
+concept_country
+=>nrel_system_idtf:[concept_country];
+
+=>nrel_main_idtf:
+  [страна] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [country] (* <-lang_en;; *);;
+  
+  
+concept_world
+=>nrel_system_idtf:[concept_world];
+
+=>nrel_main_idtf:
+  [мировое сообщество] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [world] (* <-lang_en;; *);;
+	
+

@@ -1,0 +1,74 @@
+section_subject_domain_of_intangible_historical_cultural_values -> [*
+
+section_subject_domain_of_intangible_historical_cultural_values
+=>nrel_system_idtf:[section_subject_domain_of_intangible_historical_cultural_values];
+=>nrel_main_idtf:[Section. Subject domain of intangible historical and cultural value](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область нематериальных историко-культурных ценностей](*<-lang_ru;;*);
+
+<= nrel_section_decomposition:{
+section_subject_domain_of_traditions;
+section_subject_domain_of_cuisine;
+section_subject_domain_of_symbolism;
+section_subject_domain_of_folklore;
+section_subject_domain_of_language};
+
+
+<-non_atomic_section;
+<-not_enough_formed_structure;
+
+->rrel_key_sc_element:
+subject_domain_of_intangible_historical_cultural_values;
+nrel_tradition;
+concept_tradition;
+concept_folk;
+concept_cuisine;
+nrel_state_symbol;
+nrel_rite;
+nrel_celebrating;
+concept_celebration;
+concept_flag;
+concept_coat_of_arms;
+concept_hymn;
+nrel_dialect;
+concept_human_language;
+nrel_official_language;
+nrel_national_language;
+nrel_auxiliary_language;;
+
+
+section_subject_domain_of_intangible_historical_cultural_values = [*
+subject_domain_of_intangible_historical_cultural_values
+=>nrel_system_idtf:[subject_domain_of_intangible_historical_cultural_values];
+=>nrel_main_idtf:[Subject domain of intangible historical and cultural values](*<-lang_en;;*);
+=>nrel_main_idtf:[Предметная область нематериальных историко-культурных ценностей](*<-lang_ru;;*);
+
+
+->rrel_maximum_studied_object_class:intangible_historical_and_cultural_value;
+->rrel_not_maximum_studied_object_class:
+concept_tradition;
+concept_folk;
+concept_cuisine;
+language;
+
+->rrel_explored_relation:
+nrel_tradition;
+nrel_state_symbol;
+
+
+<-subject_domain;
+<-structure;;
+
+*];;
+
+*];;
+
+concept_cuisine
+=>nrel_system_idtf:[concept_cuisine];
+=>nrel_main_idtf:[cuisine](*<-lang_en;;*);
+=>nrel_main_idtf:[национальная кухня](*<-lang_ru;;*);;
+
+concept_folk
+=>nrel_system_idtf:[concept_folk];
+=>nrel_main_idtf:[folk](*<-lang_en;;*);
+=>nrel_main_idtf:[фольклор](*<-lang_ru;;*);;
+

@@ -1,0 +1,40 @@
+concept_rhapsody
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_rhapsody];
+
+=> nrel_main_idtf:
+	[рапсодия]
+	(*
+	<- lang_ru;;
+	*);
+	[rhapsody]
+	(*
+	<- lang_en;;
+	*);
+	[рапсодыя]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Рапсодия — инструментальное или вокальное произведение, написанное в свободном, импровизационном, эпическом стиле. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Рапсодыя — інструментальны ці вакальны твор, напісаны ў вольным, імправізацыйным, эпічным стылі.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

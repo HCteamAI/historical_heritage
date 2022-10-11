@@ -1,0 +1,22 @@
+section_subject_domain_of_folk_song
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область народных песен]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of folk songs]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по фольклору, описывающий разные виды народных песен.]
+	(* <- lang_ru;; *);
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_folk_song;
+	concept_folk_song;
+    concept_non_ritual_song;
+	concept_ritual_song;;	
+
+section_subject_domain_of_folk_song = [*^"file://subject_domain_of_folk_song.scsi"*];;

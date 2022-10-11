@@ -1,0 +1,41 @@
+concept_gryzhanka
+<-sc_node_class;
+=>nrel_main_idtf:
+	[грыжанка](*<-lang_ru;;*);
+	[gryzhanka](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_gryzhanka_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_gryzhanka_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (грыжанка)](*<-lang_ru;;*);
+		[Pic. (gryzhanka)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_gryzhanka.jpeg"(*=>nrel_format:format_jpeg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1640;
+=>nrel_origin: Grand_Duchy_of_Lithuania;
+=>nrel_cooking_method: concept_extinguishing;
+=>nrel_dish_category: concept_main_course;
+<= nrel_inclusion:
+	Water;
+	Carrot;
+	Potato;
+	Salo;
+	Coriander;
+	Swede;;
+

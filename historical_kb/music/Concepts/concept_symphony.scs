@@ -1,0 +1,40 @@
+concept_symphony
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_symphony];
+
+=> nrel_main_idtf:
+	[симфония]
+	(*
+	<- lang_ru;;
+	*);
+	[symphony]
+	(*
+	<- lang_en;;
+	*);
+	[сімфонія]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Симфония — музыкальное произведение для оркестра. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Сімфонія - музычны твор для аркестра.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

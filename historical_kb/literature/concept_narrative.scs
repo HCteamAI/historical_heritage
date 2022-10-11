@@ -1,0 +1,29 @@
+concept_narrative
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[повесть](*<-lang_ru;;*);
+	[narrative](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_narrative_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_narrative_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (повесть)](*<-lang_ru;;*);
+		[Pic. (narrative)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_narrative.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+

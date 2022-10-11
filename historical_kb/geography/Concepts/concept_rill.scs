@@ -1,0 +1,38 @@
+concept_rill
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[родник]
+	(*
+	<- lang_ru;;
+	*);
+	[rill]
+	(*
+	<- lang_en;;
+	*);	
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Родник - это водный источник, текущий из глубины земли, ключ.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A spring is a water source flowing from the depths of the earth, a key.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+
