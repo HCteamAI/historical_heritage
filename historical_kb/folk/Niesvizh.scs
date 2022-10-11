@@ -1,0 +1,27 @@
+Niesvizh
+<- concept_ethnological_legend;
+=> nrel_main_idtf:
+	[От чего Несвиж пошел]
+	(*<-lang_ru;;*);
+	[what did Nesvizh leave]
+	(*<-lang_en;;*);
+
+=>nrel_area_of_origin:
+    Minsk_region;
+
+=> nrel_written_source:
+    Written_by_Maksimovich;
+
+=>nrel_language_of_presentation:
+    belarusian_language;
+
+=>nrel_hero:
+    pans;
+    bear;
+
+=>nrel_described_event:
+    [Легенда о появлении названия города Несвиж.](* <- lang_ru;; *);
+
+=>nrel_name:
+    [Ад чаго Нясвиж пайшоў]
+    (*<-lang_by;;*);;

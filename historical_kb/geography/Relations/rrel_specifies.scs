@@ -1,0 +1,43 @@
+rrel_specifies
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[вид']
+	(*
+	<- lang_ru;;
+	*);
+	[specifies']
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_animal;
+	concept_plant;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Вид' - это ролевое отношение, описывающее связь между живым организмом и его группой.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Species' is a role relation that describes the relationship between a living organism and its group.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

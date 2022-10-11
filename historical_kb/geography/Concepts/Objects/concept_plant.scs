@@ -1,0 +1,37 @@
+concept_plant
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[растение]
+	(*
+	<- lang_ru;;
+	*);
+	[plant]
+	(*
+	<- lang_en;;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Растение — многоклеточный организм, способный к осуществлению фотосинтеза.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A plant is a multicellular organism capable of photosynthesis.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

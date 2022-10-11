@@ -1,0 +1,46 @@
+nrel_source
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[исток*]
+	(*
+	<- lang_ru;;
+	*);
+	[river source*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_river;
+	concept_stream;
+	
+=> nrel_second_domain: 	
+	concept_water_object;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Исток* — место, где водоток берёт своё начало.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[River source* - the place where the watercourse originates.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

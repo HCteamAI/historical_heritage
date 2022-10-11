@@ -1,0 +1,37 @@
+concept_plateau
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[плато]
+	(*
+	<- lang_ru;;
+	*);
+	[plateau]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Плато - равнина, лежащая сравнительно высоко над уровнем моря и отделенная от соседней местности крутыми склонами.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A plateau is a plain lying relatively high above sea level and separated from the neighboring area by step stories.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

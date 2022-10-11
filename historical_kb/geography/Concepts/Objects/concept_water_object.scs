@@ -1,0 +1,53 @@
+concept_water_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[водный объект]
+	(*
+	<- lang_ru;;
+	*);
+	[water object]
+	(*
+	<- lang_en;;
+	*);
+	
+<=nrel_subdividing:{
+	concept_sea;
+	concept_ocean;
+	concept_strait;
+	concept_bay;
+	
+	concept_river;
+	concept_lake;
+	concept_swamp;
+	concept_reservoir;
+	concept_stream;
+	concept_underwater;
+	concept_pond;
+	concept_rill
+	};	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Водный объект — природное или искусственное, постоянное или временное сосредоточение вод, в котором имеет характерные формы и признаки водного режима.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A water object is a natural or artificial, permanent or temporary concentration of waters, in which it has characteristic forms and features of the water regime.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

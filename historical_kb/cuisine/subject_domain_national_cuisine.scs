@@ -1,0 +1,35 @@
+subject_domain_national_cuisine
+<-sc_const;
+<-sc_structure;
+=>nrel_main_idtf:
+	[Предметная область национальная кухни Беларуси](*<-lang_ru;;*);
+	[Subject domain of national cuisine of Belarus](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/subject_domain_national_cuisine_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/subject_domain_national_cuisine_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<= nrel_inclusion : intangible_historical_and_cultural_value;;
+
+section_subject_domain_national_cuisine
+<-sc_const;
+<-sc_structure;
+=>nrel_main_idtf:
+	[Раздел. Предметная область национальная кухни Беларуси](*<-lang_ru;;*);
+	[Section. Subject domain of national cuisine of Belarus](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/subject_domain_national_cuisine_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/subject_domain_national_cuisine_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

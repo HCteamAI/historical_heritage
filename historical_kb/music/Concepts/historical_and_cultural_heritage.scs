@@ -1,0 +1,90 @@
+historical_and_cultural_heritage
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[historical_and_cultural_heritage];
+
+=> nrel_main_idtf:
+	[историко-культурное наследие]
+	(*
+	<- lang_ru;;
+	*);
+	[historical and cultural heritage]
+	(*
+	<- lang_en;;
+	*);
+	[гісторыка-культурная спадчына]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Историко-культурное наследие – это совокупность отличительных итогов и свидетельств исторического и духовного развития народа, воплощенных в историко-культурных ценностях.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Гісторыка-культурная спадчына - гэта сукупнасць адметных вынікаў і сведчанняў гістарычнага і духоўнага развіцця народа, увасобленых у гісторыка-культурных каштоўнасцях.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+<=nrel_subdividing:
+  {
+    material_historical_and_cultural_value;
+    intangible_historical_and_cultural_value
+  };;
+  
+  
+historical_and_cultural_heritage_of_belarus
+<-sc_const;
+<-sc_node_not_relation;
+<-historical_and_cultural_heritage;
+<= nrel_heritage: republic_of_belarus;
+=>nrel_system_idtf:[historical_and_cultural_heritage_of_belarus];
+
+=> nrel_main_idtf:
+	[историко-культурное наследие Беларуси]
+	(*
+	<- lang_ru;;
+	*);
+	[historical and cultural heritage of Belarus]
+	(*
+	<- lang_en;;
+	*);
+	[гісторыка-культурная спадчына Беларусi]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Историко-культурное наследие Беларуси – это совокупность самых ярких результатов и свидетельств исторического, культурного и духовного развития народа Беларуси, воплощенное в историко-культурных ценностях.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Гісторыка-культурная спадчына Беларусі - гэта сукупнасць самых яркіх вынікаў і сведчанняў гістарычнага, культурнага і духоўнага развіцця народа Беларусі, увасобленае ў гісторыка-культурных каштоўнасцях.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

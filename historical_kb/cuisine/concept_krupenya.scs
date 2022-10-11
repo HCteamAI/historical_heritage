@@ -1,0 +1,44 @@
+concept_krupenya
+<-sc_node_class;
+=>nrel_main_idtf:
+	[крупеня](*<-lang_ru;;*);
+	[krupenya](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_krupenya_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_krupenya_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (крупеня)](*<-lang_ru;;*);
+		[Pic. (krupenya)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_krupenya.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1480;
+=>nrel_origin: Kingdom_of_Poland;
+=>nrel_cooking_method: concept_boiling;
+=>nrel_dish_category: concept_first_course;
+<= nrel_inclusion:
+	White_mushrooms;
+	Onion;
+	Potato;
+	Carrot;
+	Parsley;
+	Buckwheat;
+	Dill;
+	Salo;
+	Water;;
+

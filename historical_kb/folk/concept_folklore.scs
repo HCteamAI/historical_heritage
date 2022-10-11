@@ -1,0 +1,26 @@
+concept_folk
+<= nrel_inclusion: {
+		concept_folk_song;
+		concept_myth;
+		concept_legend;
+		concept_tradition_story;
+		concept_mystery;
+		concept_fairy_tale
+};
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[фольклор](*<-lang_ru;;*);
+	[folklore](*<-lang_en;;*);
+
+<-intangible_historical_and_cultural_value;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_using_constants: concept_art;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://html/concept_folklore_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html/concept_folklore_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

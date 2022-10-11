@@ -1,0 +1,37 @@
+concept_plain
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[равнина]
+	(*
+	<- lang_ru;;
+	*);
+	[plain]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Равнина - ровная, без гор и холмов земная поверхность.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A plain is a flat land without mountains or hills.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

@@ -1,0 +1,45 @@
+nrel_water_volume
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[объем воды*]
+	(*
+	<- lang_ru;;
+	*);
+	[volume of water*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_water_object;
+	
+=> nrel_second_domain: 	
+	number;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Объем воды* — это бинарное отношение, связывающее водный объект с показателем количества воды.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The volume of water* is a binary relation that relates a water body to an indicator of the amount of water]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

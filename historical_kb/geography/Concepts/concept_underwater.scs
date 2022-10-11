@@ -1,0 +1,38 @@
+concept_underwater
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[подземные воды]
+	(*
+	<- lang_ru;;
+	*);
+	[groundwater]
+	(*
+	<- lang_en;;
+	*);	
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Подземные воды — воды, находящиеся в толще горных пород верхней части земной коры в жидком, твёрдом и газообразном состоянии.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Groundwater - water that is in the thickness of the rocks of the upper part of the earth's crust in a liquid, solid and gaseous state.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

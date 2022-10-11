@@ -1,0 +1,40 @@
+concept_classical_music
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_classical_music];
+
+=> nrel_main_idtf:
+	[классическая музыка]
+	(*
+	<- lang_ru;;
+	*);
+	[classical music]
+	(*
+	<- lang_en;;
+	*);
+	[класічная музыка]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Классическая музыка — образцовые музыкальные произведения, золотой фонд мировой музыкальной культуры.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Класічная музыка - узорныя музычныя творы, залаты фонд сусветнай музычнай культуры.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

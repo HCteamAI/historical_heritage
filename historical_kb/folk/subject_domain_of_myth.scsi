@@ -1,0 +1,24 @@
+subject_domain_of_myth
+
+=> nrel_main_idtf:
+	[Предметная область мифов]
+	(*<-lang_ru;;*);
+	[Subject domain of myths]
+	(*<-lang_en;;*);	
+	
+-> rrel_maximum_studied_object_class: 
+	concept_myth;
+	
+-> rrel_not_maximum_studied_object_class:
+    concept_lunar_myth;
+    concept_heroic_myth;
+	concept_cosmogonic_myth;
+	concept_astral_solar_lunar_myth;
+	concept_twin_myth;
+	concept_totemic_myth;
+	concept_calendar_myth;
+	concept_etiological_myth;
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

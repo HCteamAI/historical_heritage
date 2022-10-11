@@ -1,0 +1,40 @@
+concept_musical_composition
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_musical_composition];
+
+=> nrel_main_idtf:
+	[музыкальное произведение]
+	(*
+	<- lang_ru;;
+	*);
+	[musical composition]
+	(*
+	<- lang_en;;
+	*);
+	[музычны твор]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Музыкальное произведение (опус) в широком смысле — всякая музыкальная пьеса, в том числе, народная песня или инструментальная импровизация.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Музычны твор (опус) у шырокім сэнсе – усякая музычная п'еса, у тым ліку, народная песня ці інструментальная імправізацыя.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

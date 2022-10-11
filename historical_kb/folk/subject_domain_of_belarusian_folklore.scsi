@@ -1,0 +1,18 @@
+subject_domain_of_belarusian_folklore
+
+=> nrel_main_idtf:
+	[Предметная область белорусского фольклора]
+	(*<-lang_ru;;*);
+	[Subject domain of belarusian folklore]
+	(*<-lang_en;;*);
+	
+	
+-> rrel_non_maximum_studied_object_class: 
+	grandad_glove;
+    Niesvizh;
+
+	
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

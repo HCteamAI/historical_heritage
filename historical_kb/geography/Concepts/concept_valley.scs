@@ -1,0 +1,37 @@
+concept_valley
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[долина]
+	(*
+	<- lang_ru;;
+	*);
+	[valley]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Долина - удлинённая впадина (вдоль речного русла, среди гор).]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Valley - an elongated depression (along the river channel, among the mountains).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

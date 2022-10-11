@@ -1,0 +1,44 @@
+nrel_inflow
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[приток*]
+	(*
+	<- lang_ru;;
+	*);
+	[inflow*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_river;
+=> nrel_second_domain: 	
+	concept_river;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Приток* — река, впадающая в другую, главную реку.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A inflow* is a river that flows into another main river.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

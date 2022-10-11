@@ -1,0 +1,286 @@
+republic_of_belarus
+<- sc_node_not_relation;
+<-concept_unitary_country;
+<- concept_country;
+=> nrel_main_idtf:
+	[Республика Беларусь]
+	(*
+	<- lang_ru;;
+	*);
+	[The Republic of Belarus]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_capital:
+	Minsk;
+=> nrel_population:
+	9255522;
+=> nrel_square:
+	207595; 
+
+<=nrel_region:
+	minsk_cregion;
+	gomel_cregion;
+	mogilev_cregion;
+	grodno_cregion;
+	brest_cregion;
+	vitebsk_cregion;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Республика Беларусь — государство в Восточной Европе. Население на 1 января 2022 года составляет 9 255 524 человек, территория — 207 595 км². Занимает 94-е место по количеству населения. Подразделяется на 6 областей; город Минск является отдельной административно-территориальной единицей и имеет особый статус города республиканского подчинения.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The Republic of Belarus is a state in Eastern Europe. The population as of January 1, 2022 is 9,255,524 people, the territory is 207,595 km². It ranks 94th in terms of population. Subdivided into 6 regions; the city of Minsk is a separate administrative-territorial unit and has a special status of a city of republican subordination.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+minsk_cregion
+<- sc_node_not_relation;
+<- concept_cregion;
+=> nrel_main_idtf:
+	[Минская область]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk region]
+	(*
+	<- lang_en;;
+	*);
+
+=>nrel_region_center:
+	Minsk;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Минская область — административно-территориальная единица (область) в центральной Белоруссии. Административный центр — город Минск (не входит в состав области, так как имеет специальный статус).]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Minsk region is an administrative-territorial unit (oblast) in central Belarus. The administrative center is the city of Minsk (not part of the region, as it has a special status).]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+
+
+Minsk
+<- sc_node_not_relation;
+<- concept_town;
+=> nrel_main_idtf:
+	[Минск]
+	(*
+	<- lang_ru;;
+	*);
+	[Minsk]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_population:
+	1975000;
+=> nrel_square:
+	348; 
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Минск — столица Белоруссии, административный центр Минской области и Минского района, в состав которых не входит, поскольку является самостоятельной административно-территориальной единицей с особым (столичным) статусом. Крупнейший транспортный узел, политический, экономический, культурный и научный центр страны.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Minsk is the capital of Belarus, the administrative center of the Minsk region and the Minsk region, which it does not belong to, since it is an independent administrative-territorial unit with a special (capital) status. The largest transport hub, political, economic, cultural and scientific center of the country.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+
+gomel_cregion
+<- sc_node_not_relation;
+<- concept_cregion;
+=> nrel_main_idtf:
+	[Гомельская область]
+	(*
+	<- lang_ru;;
+	*);
+	[Gomel region]
+	(*
+	<- lang_en;;
+	*);
+
+=>nrel_region_center:
+	Gomel;;
+	
+Gomel
+<- sc_node_not_relation;
+<- concept_town;
+=> nrel_main_idtf:
+	[Гомель]
+	(*
+	<- lang_ru;;
+	*);
+	[Gomel]
+	(*
+	<- lang_en;;
+	*);;
+	
+grodno_cregion
+<- sc_node_not_relation;
+<- concept_cregion;
+=> nrel_main_idtf:
+	[Гродненская область]
+	(*
+	<- lang_ru;;
+	*);
+	[Grodno region]
+	(*
+	<- lang_en;;
+	*);
+
+=>nrel_region_center:
+	Grodno;;
+	
+Grodno
+<- sc_node_not_relation;
+<- concept_town;
+=> nrel_main_idtf:
+	[Гродно]
+	(*
+	<- lang_ru;;
+	*);
+	[Grodno]
+	(*
+	<- lang_en;;
+	*);;
+	
+vitebsk_cregion
+<- sc_node_not_relation;
+<- concept_cregion;
+=> nrel_main_idtf:
+	[Витебская область]
+	(*
+	<- lang_ru;;
+	*);
+	[Vitebsk region]
+	(*
+	<- lang_en;;
+	*);
+
+=>nrel_region_center:
+	Vitebsk;;
+	
+Vitebsk
+<- sc_node_not_relation;
+<- concept_town;
+=> nrel_main_idtf:
+	[Витебск]
+	(*
+	<- lang_ru;;
+	*);
+	[Vitebsk]
+	(*
+	<- lang_en;;
+	*);;
+	
+mogilev_cregion
+<- sc_node_not_relation;
+<- concept_cregion;
+=> nrel_main_idtf:
+	[Могилевская область]
+	(*
+	<- lang_ru;;
+	*);
+	[Mogilev region]
+	(*
+	<- lang_en;;
+	*);
+
+=>nrel_region_center:
+	Mogilev;;
+	
+Mogilev
+<- sc_node_not_relation;
+<- concept_town;
+=> nrel_main_idtf:
+	[Могилев]
+	(*
+	<- lang_ru;;
+	*);
+	[Mogilev]
+	(*
+	<- lang_en;;
+	*);;
+	
+brest_cregion
+<- sc_node_not_relation;
+<- concept_cregion;
+=> nrel_main_idtf:
+	[Брестская область]
+	(*
+	<- lang_ru;;
+	*);
+	[Brest region]
+	(*
+	<- lang_en;;
+	*);
+
+=>nrel_region_center:
+	Brest;;
+	
+Brest
+<- sc_node_not_relation;
+<- concept_town;
+=> nrel_main_idtf:
+	[Брест]
+	(*
+	<- lang_ru;;
+	*);
+	[Brest]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+	
+

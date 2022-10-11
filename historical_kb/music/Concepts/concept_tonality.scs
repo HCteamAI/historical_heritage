@@ -1,0 +1,32 @@
+	
+concept_tonality
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[тональность]
+	(* <- lang_ru;; *);
+	[tonality]
+	(* <- lang_en;; *);
+	
+	
+<- rrel_key_sc_element:
+...
+(*
+<-sc_explanation;;
+<=nrel_sc_text_translation:
+	...
+	(*
+	-> rrel_example:
+		[Тональность - принцип лада, центральной категорией которого является тоника.]
+		(*
+		<- lang_ru;;
+		*);;
+	*);
+		...
+	(*
+	-> rrel_example:
+		[Танальнасць - прынцып ладу, цэнтральнай катэгорыяй якога з'яўляецца тоніка.]
+		(*
+		<- lang_by;;
+		*);;
+	*);;
+*);;

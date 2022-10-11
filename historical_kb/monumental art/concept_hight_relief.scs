@@ -1,0 +1,27 @@
+concept_hight_relief
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Горельеф](*<- lang_ru;;*);
+	[Highrelief](*<- lang_en;;*);
+	
+<- rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/high_relief_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/high_relief_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Горельеф)](*<-lang_ru;;*);
+		[Pic. (Highrelief)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/high_relief.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_relief;;

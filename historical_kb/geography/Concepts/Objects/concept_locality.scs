@@ -1,0 +1,45 @@
+concept_locality
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[населенный пункт]
+	(*
+	<- lang_ru;;
+	*);
+	[locality]
+	(*
+	<- lang_en;;
+	*);
+
+<=nrel_subdividing:{
+	concept_town;
+	concept_urban_village;
+	concept_village;
+	concept_farm
+	};
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		
+		(*
+		->rrel_example:
+			[Населенный пункт – это компактно заселенная часть территории, место постоянного жительства граждан, имеющая необходимые для обеспечения жизнедеятельности граждан жилые и иные здания и сооружения, собственное наименование и установленные в соответствующем порядке территориальные пределы.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Settlement is a compactly populated part of the territory, a place of permanent residence of citizens, having residential and other buildings and structures necessary to ensure the life of citizens, its own name and territorial limits established in the appropriate order.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

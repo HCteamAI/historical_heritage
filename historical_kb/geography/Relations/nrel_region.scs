@@ -1,0 +1,45 @@
+nrel_region
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[регион*]
+	(*
+	<- lang_ru;;
+	*);
+	[region*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_country;
+	
+=> nrel_second_domain: 	
+	concept_region;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Регион* - это бинарное отношение, описывающее принадлежность региона к стране.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[region* is a binary relation that describes whether a region belongs to a country.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

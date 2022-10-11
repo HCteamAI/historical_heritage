@@ -1,0 +1,47 @@
+nrel_wash
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[омывать*]
+	(*
+	<- lang_ru;;
+	*);
+	[wash*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_land;
+	concept_island;
+	
+=> nrel_second_domain: 	
+	concept_ocean;
+	concept_sea;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Омывать* (для водных пространств) — это бинарное отношение, связывающее некое водное пространство и часть суши, которую это водное пространство ограничивает собой, окружает своими водами.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+		...
+		(*
+		->rrel_example:
+			[To wash* (for water spaces) is a binary relation that connects a certain body of water and a part of the land that this body of water limits to itself, surrounds with its waters.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

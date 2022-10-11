@@ -1,0 +1,10 @@
+section_subject_domain_of_music_of_the_peoples_of_the_world->[*
+
+section_subject_domain_of_music_of_the_peoples_of_the_world=>nrel_system_idtf:[section_subject_domain_of_music_of_the_peoples_of_the_world];;
+section_subject_domain_of_music_of_the_peoples_of_the_world=>nrel_main_idtf:[Section. Subject domain of music of the peoples of the world](*<-lang_en;;*);;
+section_subject_domain_of_music_of_the_peoples_of_the_world=>nrel_main_idtf:[Раздел. Предметная область музыки народов мира](*<-lang_ru;;*);;
+section_subject_domain_of_music<=nrel_section_decomposition:section_subject_domain_of_music_of_the_peoples_of_the_world;;
+
+section_subject_domain_of_folk_art=>nrel_section_decomposition:section_subject_domain_of_music_of_the_peoples_of_the_world;;
+
+*];;

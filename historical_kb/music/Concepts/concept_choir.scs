@@ -1,0 +1,40 @@
+concept_choir
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_choir];
+
+=> nrel_main_idtf:
+	[хор]
+	(*
+	<- lang_ru;;
+	*);
+	[choir]
+	(*
+	<- lang_en;;
+	*);
+	[хор]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Хор — музыкальный ансамбль, состоящий из певцов (хористов, артистов хора); совместное звучание человеческих голосов. ]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Хор - музычны ансамбль, які складаецца са спевакоў (харыстаў, артыстаў хору); сумеснае гучанне чалавечых галасоў.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

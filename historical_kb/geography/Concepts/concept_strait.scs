@@ -1,0 +1,37 @@
+concept_strait
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[пролив]
+	(*
+	<- lang_ru;;
+	*);
+	[strait]
+	(*
+	<- lang_en;;
+	*);	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Пролив - это узкое водное пространство между двумя морями, между островом и материком и т. п.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A strait is a narrow body of water between two seas, between an island and the mainland, etc.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

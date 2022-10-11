@@ -1,0 +1,20 @@
+subject_domain_of_monumental_art
+
+=> nrel_main_idtf:
+	[Предметная область монументального искусства]
+	(*<-lang_ru;;*);
+	[Subject domain of monumental art]
+	(*<-lang_en;;*);
+	
+	
+-> rrel_maximum_studied_object_class: 
+	concept_mosaic;
+	concept_sgraffito;
+	concept_monumental_sculpture;
+	concept_monumental_graphics;
+        concept_muralism;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_sculpture_genre;
+    concept_type_of_sculpture;
+    concept_method_of_making_sculpture;;

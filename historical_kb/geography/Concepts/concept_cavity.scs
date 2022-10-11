@@ -1,0 +1,37 @@
+concept_cavity
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[впадина]
+	(*
+	<- lang_ru;;
+	*);
+	[cavity]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Впадина - небольшая долина между возвышенностями.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A cavity is a small valley between hills.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

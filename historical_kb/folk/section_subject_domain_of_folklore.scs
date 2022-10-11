@@ -1,0 +1,38 @@
+section_subject_domain_of_folklore
+<- section;
+
+=> nrel_main_idtf:
+	[Раздел. Предметная область фольклора]
+	(*<-lang_ru;;*);
+	[Section. Subject domain of folklore]
+	(*<-lang_en;;*);
+	
+=> nrel_idtf: 	
+	[Раздел базы знаний по нематериальным историко-культурным ценностям, описывающий разные виды фольклора.]
+	(* <- lang_ru;; *);
+
+<= nrel_section_decomposition: 
+	{
+	section_subject_domain_of_folk_song;
+	section_subject_domain_of_myth;
+        section_subject_domain_of_legend;
+        section_subject_domain_of_mystery;
+        section_subject_domain_of_tradition_story;
+        section_subject_domain_of_fairy_tale;
+        section_subject_domain_of_belarusian_folklore
+	};
+	
+<- not_enough_formed_structure;
+	
+-> rrel_key_sc_element:
+	subject_domain_of_folklore;
+	concept_folk;
+	concept_legend;
+	concept_mystery;
+	concept_myth;
+	concept_fairy_tale;
+	concept_folk_song;
+    concept_tradition_story;; 	
+
+section_subject_domain_of_folklore = [*^"file://subject_domain_of_folklore.scsi"*];;
+

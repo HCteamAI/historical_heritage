@@ -1,0 +1,108 @@
+section_subject_domain_of_belarussian_music ->[*
+
+section_subject_domain_of_belarussian_music=>nrel_system_idtf:
+	[section_subject_domain_of_belarussian_music];
+=>nrel_main_idtf:
+	[Section. Subject domain of belarusian music](*<-lang_en;;*);
+=>nrel_main_idtf:
+	[Раздел. Предметная область белорусской музыки](*<-lang_ru;;*);
+	
+=> nrel_section_decomposition:{
+	section_subject_domain_of_belarusian_folk_music;
+	section_subject_domain_of_belarusian_secular_music;
+	section_subject_domain_of_belarusian_modern_music;
+	section_subject_domain_of_belarusian_music_festivals
+	};
+	
+<= nrel_section_decomposition: 
+	section_subject_domain_of_music_of_the_peoples_of_the_world;
+
+-> rrel_key_sc_element:
+	subject_domain_of_belarussian_music;
+	
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+	
+
+section_subject_domain_of_belarussian_music = [*
+subject_domain_of_belarussian_music
+
+=> nrel_main_idtf:
+	[Предметная область белорусской музыки]
+	(*<-lang_ru;;*);
+	[Subject domain of belarusian music]
+	(*<-lang_en;;*);
+	
+<= nrel_subdividing:{
+	subject_domain_of_belarusian_folk_music;
+	subject_domain_of_belarusian_secular_music;
+	subject_domain_of_belarusian_modern_music
+	};
+
+	
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;
+*];;
+*];;
+
+section_subject_domain_of_belarusian_folk_music
+=>nrel_system_idtf:
+	[section_subject_domain_of_belarusian_folk_music];
+=>nrel_main_idtf:
+	[Section. Subject domain of belarusian folk music](*<-lang_en;;*);
+=>nrel_main_idtf:
+	[Раздел. Предметная область белорусской народной музыки](*<-lang_ru;;*);;
+	
+	
+section_subject_domain_of_belarusian_secular_music
+=>nrel_system_idtf:
+[section_subject_domain_of_belarusian_secular_music];
+=>nrel_main_idtf:
+[Section. Subject domain of belarusian secular music](*<-lang_en;;*);
+=>nrel_main_idtf:
+[Раздел. Предметная область белорусской светской музыки](*<-lang_ru;;*);;
+
+section_subject_domain_of_belarusian_modern_music
+=>nrel_system_idtf:
+[section_subject_domain_of_belarusian_modern_music];
+=>nrel_main_idtf:
+[Section. Subject domain of belarusian modern music](*<-lang_en;;*);
+=>nrel_main_idtf:
+[Раздел. Предметная область белорусской современной музыки](*<-lang_ru;;*);;
+
+
+section_subject_domain_of_belarusian_music_festivals
+=>nrel_system_idtf:
+[section_subject_domain_of_belarusian_music_festivals];
+=>nrel_main_idtf:
+[Section. Subject domain of belarusian music festivals](*<-lang_en;;*);
+=>nrel_main_idtf:
+[Раздел. Предметная область белорусских музыкальных фестивалей](*<-lang_ru;;*);;
+
+
+subject_domain_of_belarusian_folk_music
+=>nrel_system_idtf:
+	[subject_domain_of_belarusian_folk_music];
+=>nrel_main_idtf:
+	[Subject domain of belarusian folk music](*<-lang_en;;*);
+=>nrel_main_idtf:
+	[Предметная область белорусской народной музыки](*<-lang_ru;;*);;
+	
+	
+subject_domain_of_belarusian_secular_music
+=>nrel_system_idtf:
+[subject_domain_of_belarusian_secular_music];
+=>nrel_main_idtf:
+[Subject domain of belarusian secular music](*<-lang_en;;*);
+=>nrel_main_idtf:
+[Предметная область белорусской светской музыки](*<-lang_ru;;*);;
+
+subject_domain_of_belarusian_modern_music
+=>nrel_system_idtf:
+[subject_domain_of_belarusian_modern_music];
+=>nrel_main_idtf:
+[Subject domain of belarusian modern music](*<-lang_en;;*);
+=>nrel_main_idtf:
+[Предметная область белорусской современной музыки](*<-lang_ru;;*);;

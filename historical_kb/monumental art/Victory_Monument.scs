@@ -1,0 +1,33 @@
+Victory_Monument<- sc_node_not_relation;
+<-concept_sculpture;
+
+=>nrel_main_idtf:
+[Victory_Monument](* <- lang_en;; *);
+[Монумент Победы](* <- lang_ru;; *);
+
+<- rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/Victory_Monument_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/Victory_Monument_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/Victory_Monument.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);	
+<- concept_historical_genre;
+<- concept_obelisk;
+=>rrel_sculptor:George_Zaborsky;	
+=>rrel_erection_date:1954;
+=>rrel_location:Minsk;
+<- concept_round_sculpture;
+<- historical_monuments;;
+

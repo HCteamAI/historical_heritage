@@ -1,0 +1,19 @@
+subject_domain_of_painting
+
+=> nrel_main_idtf:
+	[Предметная область белорусской живописи]
+	(*<-lang_ru;;*);
+	[Subject area of ​​painting of the Republic of Belarus]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	concept_picture;
+	
+-> rrel_not_maximum_studied_object_class:
+ 	concept_picture_genre;
+	concept_picture_style;
+	concept_creation_technique;
+
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

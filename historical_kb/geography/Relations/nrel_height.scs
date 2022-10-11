@@ -1,0 +1,45 @@
+nrel_height
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[высота*]
+	(*
+	<- lang_ru;;
+	*);
+	[height*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_physical_geography_object;
+	
+=> nrel_second_domain: 	
+	number;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Высота* — это бинарное отношение, связывающее физико-географический объект с показателем его размера.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Height* is a binary relation that connects a physical-geographical object with an indicator of its size.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

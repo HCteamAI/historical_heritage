@@ -1,0 +1,38 @@
+concept_piece_of_art
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[единица искусства](*<-lang_ru;;*);
+	[piece of art](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_using_constants:
+	{
+        concept_literary_work;
+	concept_human
+	};;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_piece_of_art_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_piece_of_art_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (единица искусства)](*<-lang_ru;;*);
+		[Pic. (piece of art)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://IMG/concept_piece_of_art.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;
+
+concept_piece_of_art
+<= nrel_section_decomposition: {
+    concept_literary_work
+};;

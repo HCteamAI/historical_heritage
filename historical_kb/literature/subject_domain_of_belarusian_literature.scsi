@@ -1,0 +1,18 @@
+subject_domain_of_belarusian_literature
+
+=> nrel_main_idtf:
+	[Предметная область белорусской литературы]
+	(*<-lang_ru;;*);
+	[Subject domain of belarusian folklore]
+	(*<-lang_en;;*);
+	
+-> rrel_maximum_studied_object_class: 
+	who_laugh_last;
+    	moy_sosed;
+    	arrogant_pig;
+    	kondrat_krapiva;
+	
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

@@ -1,0 +1,41 @@
+concept_sea
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[море]
+	(*
+	<- lang_ru;;
+	*);
+	[sea]
+	(*
+	<- lang_en;;
+	*);	
+	
+=>nrel_inclusion: 
+	concept_strait;
+	concept_bay;	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Море - большое водное пространство с горько-солёной водой.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The sea is a large expanse of water with bitter-salty water.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

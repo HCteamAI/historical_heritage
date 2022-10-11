@@ -1,0 +1,39 @@
+nrel_written_source
+<- sc_node_norole_relation;
+=> nrel_main_idtf:
+    [written source*](*<- lang_en;;*);
+    [письменный источник*](*<- lang_ru;;*);
+<- rrel_key_sc_element:... (*
+    <- definition;;
+    => nrel_main_idtf: 
+        [Опр. (письменный источник*)](*<- lang_ru;;*);
+        [Def. (written source*)](*<- lang_en;;*);;
+   
+
+    <= nrel_sc_text_translation:...(*
+        -> rrel_example: "file://html/nrel_source_def_ru.html"(*<- lang_ru;;=>nrel_format:format_html;;*);;
+        -> rrel_example: "file://html/nrel_source_def_en.html"(*<- lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+*);
+
+=>nrel_first_domain:concept_folklore;
+=>nrel_second_domain:concept_literature;
+
+<-binary_relation; 
+<-antireflexive_relation;
+<-antitransitive_relation;
+
+-> rrel_key_sc_element: ...(*
+		<- illustration;;
+		=>nrel_main_idtf:
+		    [Рис. (письменный источник*)](*<-lang_ru;;*);
+		    [Pic. (written source*)](*<-lang_en;;*);;
+	    <=nrel_sc_text_translation:...
+	    (*
+		->"file://pictures/nrel_best_day_ever6.jpg"(*=>nrel_format:format_jpg;;*);;
+	    *);;
+        <= nrel_using_constants:{
+       concept_composition;
+       concept_text
+    };;
+*);;

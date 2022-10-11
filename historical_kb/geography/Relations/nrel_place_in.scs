@@ -1,0 +1,19 @@
+nrel_place_in
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[находиться в*]
+	(*
+	<- lang_ru;;
+	*);
+	[place in*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_geography_object;
+=> nrel_second_domain: 	
+	concept_geography_object;;

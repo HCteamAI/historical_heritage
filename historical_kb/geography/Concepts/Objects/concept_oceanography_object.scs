@@ -1,0 +1,44 @@
+concept_oceanography_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[океанографический объект]
+	(*
+	<- lang_ru;;
+	*);
+	[oceanography object]
+	(*
+	<- lang_en;;
+	*);
+	
+=>nrel_inclusion:
+	concept_sea;
+	concept_ocean;
+	concept_strait;
+	concept_bay;
+	
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Объект океанографии - объ­ект, ко­то­рый взаи­мо­дей­ст­ву­ет с ат­мо­сфе­рой, ли­то­сфе­рой, ма­те­ри­ко­вым сто­ком.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[An object of oceanography is an object that interacts with the atmosphere, lithosphere, and continental runoff.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

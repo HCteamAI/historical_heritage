@@ -1,0 +1,80 @@
+fox
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[лиса](*<-lang_ru;;*);
+	[fox](*<-lang_en;;*);;
+wolf
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[волк](*<-lang_ru;;*);
+	[wolf](*<-lang_en;;*);;
+lobster
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[рак](*<-lang_ru;;*);
+	[lobster](*<-lang_en;;*);;
+rabbit
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[заяц](*<-lang_ru;;*);
+	[rabbit](*<-lang_en;;*);;
+bear
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[медведь](*<-lang_ru;;*);
+	[bear](*<-lang_en;;*);;
+Mogilev_region
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Могилевская область](*<-lang_ru;;*);
+	[Mogilev region](*<-lang_en;;*);;
+frog
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[лягушка](*<-lang_ru;;*);
+	[frog](*<-lang_en;;*);;
+fun
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[веселье](*<-lang_ru;;*);
+	[fun](*<-lang_en;;*);;
+sad
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[печаль](*<-lang_ru;;*);
+	[sad](*<-lang_en;;*);;
+Mogilev_Starina_book
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Могилевская Старина](*<-lang_ru;;*);
+	[Mogilevskaya Starina](*<-lang_en;;*);;
+belarusian_language
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[белорусский язык](*<-lang_ru;;*);
+	[belarusian language](*<-lang_en;;*);;
+size_of_glove
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[размер рукавички](*<-lang_ru;;*);
+	[size of glove](*<-lang_en;;*);;
+size_of_bear
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[размер медведя](*<-lang_ru;;*);
+	[size of bear](*<-lang_en;;*);;
+Minsk_region
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Минская область](*<-lang_ru;;*);
+	[Minsk region](*<-lang_en;;*);;
+Written_by_Maksimovich
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Записки В.В. Максимовича от Л. Дашка](*<-lang_ru;;*);
+	[Notes by V.V. Maksimovich from L. Dashka](*<-lang_en;;*);;
+pans
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[Паны](*<-lang_ru;;*);
+	[Pani](*<-lang_en;;*);;

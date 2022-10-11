@@ -1,0 +1,37 @@
+concept_river
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[река]
+	(*
+	<- lang_ru;;
+	*);
+	[river]
+	(*
+	<- lang_en;;
+	*);	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Река - это постоянный водный поток значительных размеров с естественным течением по руслу от истока вниз до устья..]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A river is a constant water flow of considerable size with a natural course along the channel from the source down to the mouth.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

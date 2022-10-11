@@ -1,0 +1,42 @@
+nrel_tradition
+
+=>nrel_system_idtf:[nrel_tradition];
+
+=>nrel_main_idtf:
+  [традиция*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [tradition*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [традыцыя*] (* <-lang_by;; *);
+
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    subject;
+    
+    
+=> nrel_second_domain:
+    concept_tradition;
+
+<-relation;
+<- binary_relation;
+<- oriented_relation;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[традиция* - бинарное отношение, связывающее набор поведенческих действий и субъект, для которого данные действия являются традицией.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[традыцыя* - бінарнае стаўленне, якое злучае набор паводзінскіх дзеянняў і суб'ект, для якога дадзеныя дзеянні з'яўляюцца традыцыяй.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;

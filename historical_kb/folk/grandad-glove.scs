@@ -1,0 +1,37 @@
+grandad_glove
+<- concept_fairy_tale;
+=> nrel_main_idtf:
+	[Дедова рукавичка]
+	(*<-lang_ru;;*);
+	[Grandad`s glove]
+	(*<-lang_en;;*);
+
+=>nrel_area_of_origin:
+    Mogilev_region;
+
+=> nrel_emotional_content:
+    fun;
+    sad;
+
+=> nrel_written_source:
+    Mogilev_Starina_book;
+
+=>nrel_language_of_presentation:
+    belarusian_language;
+
+=>nrel_hero:
+    fox;
+    frog;
+    lobster;
+    rabbit;
+    wolf;
+    bear;
+=>nrel_conflict:
+    size_of_glove(*<-nrel_first_domain;;*);
+    size_of_bear(*<-nrel_second_domain;;*);
+=>nrel_described_event:
+    [Сказка про пропавшую рукавичку и животных, которые ее нашли и сделали из рукавички жилище.](* <- lang_ru;; *);
+
+=>nrel_name:
+    [Дзедава рукавiчка]
+    (*<-lang_by;;*);;

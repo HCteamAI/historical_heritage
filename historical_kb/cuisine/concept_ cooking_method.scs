@@ -1,0 +1,23 @@
+concept_cooking_method
+<-sc_node_class;
+=>nrel_main_idtf:
+	[способ приготовления](*<-lang_ru;;*);
+	[cooking method](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_cooking_method_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_cooking_method_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<= nrel_inclusion:
+ 	concept_boiling;
+	concept_frying;
+	concept_baking;
+ 	concept_extinguishing;
+ 	concept_infusion;
+ 	concept_languor;;

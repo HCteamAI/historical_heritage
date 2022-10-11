@@ -1,0 +1,28 @@
+concept_picture_genre
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[жанр картины](*<-lang_ru;;*);
+	[painting genre](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_picture_genre_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_picture_genre_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_picture_genre
+<= nrel_inclusion: {
+    concept_animalism_genre;
+    concept_battle_genre;
+    concept_historical_genre;
+    concept_household_genre;
+    concept_landscape_genre;
+    concept_portrait_genre;
+    concept_still_life_genre;
+    concept_mythological_genre
+};;
+

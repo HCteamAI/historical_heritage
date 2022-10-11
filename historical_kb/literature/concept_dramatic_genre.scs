@@ -1,0 +1,25 @@
+concept_dramatic_genre
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[драматический жанр](*<-lang_ru;;*);
+	[dramatic genre](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_dramatic_genre_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_dramatic_genre_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_dramatic_genre
+<= nrel_inclusion: {
+    concept_comedy;
+    concept_play;
+    concept_tragedy;
+    concept_drama;
+    concept_vaudeville
+};;

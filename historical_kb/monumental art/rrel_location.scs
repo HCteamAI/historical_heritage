@@ -1,0 +1,11 @@
+rrel_location
+<- sc_node_role_relation;
+=> nrel_main_idtf:
+    [location*](*<- lang_en;;*);
+    [местоположение*](*<- lang_ru;;*);
+
+=>nrel_first_domain:concept_sculpture;
+=>nrel_second_domain:concept_place;
+
+<- binary_relation ; antireflexive_relation ; antitransitive_relation ;;
+

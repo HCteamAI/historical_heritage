@@ -1,0 +1,46 @@
+concept_machanka
+<-sc_node_class;
+=>nrel_main_idtf:
+	[мачанка](*<-lang_ru;;*);
+	[machanka](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_machanka_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_machanka_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (мачанка)](*<-lang_ru;;*);
+		[Pic. (machanka)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_machanka.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1700;
+=>nrel_origin: Grand_Duchy_of_Lithuania;
+=>nrel_cooking_method: concept_frying;
+=>nrel_dish_category: concept_main_course;
+<= nrel_inclusion:
+	Pork_ribs;
+	Sausages;
+	Brisket;
+	Onion;
+	Salt;
+	Black_pepper;
+	Caraway;
+	Bay_leaf;
+	Flour;
+	Mushrooms;
+	Greenery;;
+

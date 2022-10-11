@@ -1,0 +1,45 @@
+section_subject_domain_of_orography->[*
+
+sc_node_not_relation->subject_domain_of_orography;
+	section_subject_domain_of_orography;
+	concept_orography_object;;
+
+section_subject_domain_of_orography=>nrel_system_idtf:[section_subject_domain_of_orography];
+	=>nrel_main_idtf:[Section. Subject domain of orography](*<-lang_en;;*);
+	=>nrel_main_idtf:[Раздел. Предметная область орографии](*<-lang_ru;;*);
+			
+->rrel_key_sc_element:
+	subject_domain_of_orography;
+	concept_orography_object;
+	concept_ridge;
+	concept_plateau;
+	concept_plain;
+	concept_valley;
+	concept_mountain;
+	concept_cavity;
+	concept_land;
+	concept_island;
+	
+<-atomic_section;;
+
+section_subject_domain_of_orography = [*
+
+subject_domain_of_orography=>nrel_system_idtf:[subject_domain_of_orography];
+	=>nrel_main_idtf:[Subject domain of orography](*<-lang_en;;*);
+	=>nrel_main_idtf:[Предметная область орографии](*<-lang_ru;;*);
+
+->rrel_maximum_studied_object_class:concept_orography_object;
+
+->rrel_not_maximum_studied_object_class:
+	concept_ridge;
+	concept_plateau;
+	concept_plain;
+	concept_valley;
+	concept_mountain;
+	concept_cavity;
+	concept_land;
+	concept_island;
+
+<-subject_domain;;
+*];;
+*];;

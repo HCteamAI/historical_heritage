@@ -1,0 +1,23 @@
+subject_domain_of_folklore
+
+=> nrel_main_idtf:
+	[Предметная область фольклора]
+	(*<-lang_ru;;*);
+	[Subject domain of folklore]
+	(*<-lang_en;;*);
+
+	
+-> rrel_maximum_studied_object_class: 
+	concept_folk;
+	
+-> rrel_not_maximum_studied_object_class:
+	concept_legend;
+	concept_mystery;
+	concept_myth;
+	concept_fairy_tale;
+	concept_folk_song;
+    concept_tradition_story;
+  
+<- subject_domain;
+<- sc_node_struct;
+<- structure;;

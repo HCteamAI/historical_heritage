@@ -1,0 +1,42 @@
+nrel_auxiliary_language
+
+=>nrel_system_idtf:[nrel_auxiliary_language];
+
+=>nrel_main_idtf:
+  [вспомогательный язык*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [auxiliary language*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [дапаможная мова*] (* <-lang_by;; *);
+
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    concept_country;   
+    
+=> nrel_second_domain:
+    language;
+
+
+<- binary_relation;
+<- oriented_relation;
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[вспомогательный язык* - бинарное отношение, связывающее государство и язык, предназначенный для общения между людьми различных народов, говорящих на разных языках (обычно в качестве второго языка).]
+			(* 
+			<- lang_ru;; 
+			*);
+			[дапаможная мова* - бінарнае стаўленне, якое злучае дзяржаву і мову, прызначаную для зносін паміж людзьмі розных народаў, якія гавораць на розных мовах (звычайна ў якасці другой мовы).]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;

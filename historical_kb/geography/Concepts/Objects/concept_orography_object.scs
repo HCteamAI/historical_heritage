@@ -1,0 +1,51 @@
+concept_orography_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[орографический объект]
+	(*
+	<- lang_ru;;
+	*);
+	[orography object]
+	(*
+	<- lang_en;;
+	*);
+	
+	
+<= nrel_subdividing:
+	{
+	concept_ridge;
+	concept_plateau;
+	concept_plain;
+	concept_valley;
+	concept_mountain;
+	concept_cavity;
+	concept_land;
+	concept_island
+	};
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Объект орографии - описание основных черт и крупных форм рельефа региона: данные об их ориентировке и размерах.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Orography object - description of the main features and major landforms of the region: data on their orientation and size.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

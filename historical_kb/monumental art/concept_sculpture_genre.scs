@@ -1,0 +1,16 @@
+concept_sculpture_genre
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Жанр скульптуры](*<- lang_ru;;*);
+	[Sculpture genre](*<- lang_en;;*);
+	
+<- rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/sculpture_genre_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/sculpture_genre_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+

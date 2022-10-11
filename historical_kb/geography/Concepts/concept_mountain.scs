@@ -1,0 +1,39 @@
+concept_mountain
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[гора]
+	(*
+	<- lang_ru;;
+	*);
+	[mountain]
+	(*
+	<- lang_en;;
+	*);
+	
+	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Гора - значительная возвышенность, поднимающаяся над окружающей местностью.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Mountain - a significant elevation that rises above the surrounding area.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

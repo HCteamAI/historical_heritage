@@ -1,0 +1,42 @@
+section_subject_domain_of_oceanography->[*
+
+sc_node_not_relation->subject_domain_of_oceanography;
+	section_subject_domain_of_oceanography;
+	concept_oceanography_object;;
+
+section_subject_domain_of_oceanography=>nrel_system_idtf:[section_subject_domain_of_oceanography];
+	=>nrel_main_idtf:[Section. Subject domain of oceanography](*<-lang_en;;*);
+	=>nrel_main_idtf:[Раздел. Предметная область океанографии](*<-lang_ru;;*);
+			
+->rrel_key_sc_element:
+	subject_domain_of_oceanography;
+	concept_oceanography_object;
+	concept_sea;
+	concept_ocean;
+	concept_strait;
+	concept_bay;
+	nrel_wash;
+	
+<-atomic_section;;
+
+section_subject_domain_of_oceanography = [*
+
+subject_domain_of_oceanography=>nrel_system_idtf:[subject_domain_of_oceanography];
+	=>nrel_main_idtf:[Subject domain of oceanography](*<-lang_en;;*);
+	=>nrel_main_idtf:[Предметная область океанографии](*<-lang_ru;;*);
+	
+->rrel_maximum_studied_object_class:concept_oceanography_object;
+
+-> rrel_explored_relation:
+	nrel_wash;
+	
+->rrel_not_maximum_studied_object_class:
+	concept_sea;
+	concept_ocean;
+	concept_strait;
+	concept_bay;
+
+	
+<-subject_domain;;
+*];;
+*];;

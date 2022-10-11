@@ -1,0 +1,50 @@
+concept_krupnik
+<-sc_node_class;
+=>nrel_main_idtf:
+	[крупник](*<-lang_ru;;*);
+	[krupnik](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_krupnik_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_krupnik_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (крупник)](*<-lang_ru;;*);
+		[Pic. (krupnik)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pics/concept_krupnik.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_dish;
+
+=>rrel_first_mention: 1720;
+=>nrel_origin: Grand_Duchy_of_Lithuania;
+=>nrel_cooking_method: concept_boiling;
+=>nrel_dish_category: concept_alcohol_drink;
+<= nrel_inclusion:
+	Water;
+	Honey;
+	Cinnamon;
+	Carnation;
+	Ginger;
+	Alcohol;
+	Lemon;
+	Orange;
+	Cardamom;
+	Nutmeg;
+	Vanilla;
+	Turmeric;
+	Allspice;
+	Caraway;
+	Saffron;;
+

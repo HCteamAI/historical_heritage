@@ -1,0 +1,46 @@
+nrel_mouth
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[устье*]
+	(*
+	<- lang_ru;;
+	*);
+	[mouth*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_river;
+	concept_stream;
+	
+=> nrel_second_domain: 	
+	concept_water_object;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Устье* — конечный участок водотока, место впадения водотока в другой водный объект.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Mouth* - the final section of a watercourse, the place where a watercourse flows into another body of water.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

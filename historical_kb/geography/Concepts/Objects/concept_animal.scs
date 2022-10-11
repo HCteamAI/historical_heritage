@@ -1,0 +1,37 @@
+concept_animal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[животное]
+	(*
+	<- lang_ru;;
+	*);
+	[flora object]
+	(*
+	<- lang_en;;
+	*);
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Животные — традиционно выделяемая категория организмов, в настоящее время рассматриваемая в качестве биологического царства.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Animals are a traditionally distinguished category of organisms, currently considered as a biological kingdom.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

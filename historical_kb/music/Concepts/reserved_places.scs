@@ -1,0 +1,40 @@
+reserved_places
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[reserved_places];
+
+=> nrel_main_idtf:
+	[заповедное место]
+	(*
+	<- lang_ru;;
+	*);
+	[reserved place]
+	(*
+	<- lang_en;;
+	*);
+	[запаведнае месца]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Заповедные места – это топографически определенные зоны или ландшафты, созданные человеком или человеком и природой.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Запаведныя месцы - гэта тапаграфічна пэўныя зоны або ландшафты, створаныя чалавекам або чалавекам і прыродай.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

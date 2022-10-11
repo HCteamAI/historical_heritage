@@ -1,0 +1,43 @@
+rrel_kind
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[семейство']
+	(*
+	<- lang_ru;;
+	*);
+	[kind']
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_animal;
+	concept_plant;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Семейство'- это ролевое отношение, связывающее живые организмы по отличительным признакам.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A kind' is a role relationship that connects living organisms according to distinctive features.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

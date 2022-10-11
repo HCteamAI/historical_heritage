@@ -1,0 +1,16 @@
+concept_human_language
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[человеческий язык](*<-lang_ru;;*);
+	[human language](*<-lang_en;;*);
+<-languages;
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://html/concept_human_language_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html/concept_human_language_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;

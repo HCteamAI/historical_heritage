@@ -1,0 +1,40 @@
+concept_ballet
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_ballet];
+
+=> nrel_main_idtf:
+	[балет]
+	(*
+	<- lang_ru;;
+	*);
+	[ballet]
+	(*
+	<- lang_en;;
+	*);
+	[балет]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Балет — вид сценического искусства; спектакль, содержание которого воплощается в музыкально-хореографических образах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Балет - від сцэнічнага мастацтва; спектакль, змест якога ўвасабляецца ў музычна-харэаграфічных вобразах.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

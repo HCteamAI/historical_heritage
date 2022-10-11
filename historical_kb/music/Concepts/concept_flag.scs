@@ -1,0 +1,202 @@
+concept_flag
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_flag];
+
+=> nrel_main_idtf:
+	[флаг]
+	(*
+	<- lang_ru;;
+	*);
+	[flag]
+	(*
+	<- lang_en;;
+	*);
+	[сцяг]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Флаг — полотнище правильной геометрической (чаще всего прямоугольной) формы, имеющее какую-либо специальную расцветку.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Сцяг - полка правільнай геаметрычнай (часцей за ўсё прастакутнай) формы, якое мае якую-небудзь адмысловую расфарбоўку.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+<=nrel_subdividing:
+  {
+    concept_state_flag;
+    concept_administrative_unit_flag;
+    concept_national_flag;
+    concept_flag_of_the_armed_forces;
+    concept_ensign;
+    concept_organization_flag;
+    concept_signal_flag
+  };;
+  
+concept_state_flag
+=>nrel_system_idtf:[concept_state_flag];
+
+=> nrel_main_idtf:
+	[государственный флаг]
+	(*
+	<- lang_ru;;
+	*);
+	[state flag]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_administrative_unit_flag
+=>nrel_system_idtf:[concept_administrative_unit_flag];
+
+=> nrel_main_idtf:
+	[флаг административной единицы]
+	(*
+	<- lang_ru;;
+	*);
+	[administrative unit flag]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_national_flag
+=>nrel_system_idtf:[concept_national_flag];
+
+=> nrel_main_idtf:
+	[национальный флаг]
+	(*
+	<- lang_ru;;
+	*);
+	[national flag]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_flag_of_the_armed_forces
+=>nrel_system_idtf:[concept_flag_of_the_armed_forces];
+
+=> nrel_main_idtf:
+	[флаг вооруженных сил]
+	(*
+	<- lang_ru;;
+	*);
+	[flag of the armed forces]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_ensign
+=>nrel_system_idtf:[concept_ensign];
+
+=> nrel_main_idtf:
+	[знамя]
+	(*
+	<- lang_ru;;
+	*);
+	[ensign]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_organization_flag
+=>nrel_system_idtf:[concept_organization_flag];
+
+=> nrel_main_idtf:
+	[флаг организации]
+	(*
+	<- lang_ru;;
+	*);
+	[organization flag]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+concept_signal_flag
+
+=>nrel_system_idtf:[concept_signal_flag];
+
+=> nrel_main_idtf:
+	[сигнальный флаг]
+	(*
+	<- lang_ru;;
+	*);
+	[signal flag]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+flag_of_Belarus
+<- sc_node_not_relation;
+<- concept_flag;
+<- concept_state_flag;
+
+=> nrel_main_idtf:
+	[Государственный флаг Беларуси]
+	(* <- lang_ru;;*);
+	[The national flag of Belarus]
+	(* <- lang_en;;*);
+	[Дзяржаўны флаг Беларусі]
+	(* <- lang_by;;*);
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Государственный флаг Беларуси - символ государственного суверенитета Республики Беларусь, представляет собой прямоугольное полотнище, состоящее из двух горизонтально расположенных цветных полос: верхней - красного цвета в 2/3 ширины флага и нижней - зеленого цвета в 1/3.](*<-lang_ru;;*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The national flag of Belarus - a symbol of the state sovereignty of the Republic of Belarus, is a rectangular panel consisting of two horizontally arranged colored stripes: the upper one is red in 2/3 of the width of the flag and the lower one is green in 1/3.](*<-lang_en;;*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Дзяржаўны флаг Беларусі - сімвал дзяржаўнага суверэнітэту Рэспублікі Беларусь, уяўляе сабой прамавугольнае палотнішча, якое складаецца з дзвюх гарызантальна размешчаных каляровых палос: верхняй - чырвонага колеру ў 2/3 шырыні флага і ніжняй - зялёнага колеру ў 1/3.](*<-lang_by;;*);;
+		*);;
+	*);
+
+=>nrel_state_symbol:
+	republic_of_belarus;	
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Государственный флаг Беларуси)](*<-lang_ru;;*);
+		[Мал. (Дзяржаўны сцяг Беларусі)](*<-lang_by;;*);
+		[Pic. (The national flag of Belarus)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		<-image;;
+		->"file://flag_of_Belarus.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);;

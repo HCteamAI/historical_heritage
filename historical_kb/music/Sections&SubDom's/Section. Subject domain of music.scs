@@ -1,0 +1,219 @@
+section_subject_domain_of_music
+
+=>nrel_system_idtf:[section_subject_domain_of_music];
+=>nrel_main_idtf:[Section. Subject domain of music](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыки](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;
+
+=>nrel_section_decomposition:section_subject_domain_of_art;
+
+<=nrel_section_decomposition:section_subject_domain_of_musical_history;
+section_subject_domain_of_musical_theory;
+section_subject_domain_of_classification_of_musical_compositions;
+section_subject_domain_of_composers;
+section_subject_domain_of_musical_performers;
+section_subject_domain_of_musical_instruments;
+section_subject_domain_of_musical_festivals;
+section_subject_domain_of_music_awards;
+section_subject_domain_of_musical_competitions;
+
+->rrel_key_sc_element:
+subject_domain_of_music;
+
+nrel_composer;
+ nrel_musical_genre;
+ nrel_tonality;
+ nrel_musical_performer;
+ nrel_song_text;
+
+
+ concept_music;
+ concept_musical_genre;
+ concept_musical_composition;
+ concept_tonality;
+ concept_musiciant;
+ concept_folk_music;
+ concept_sacred_music;
+ concept_classical_music;
+ concept_country_music;
+ concept_latina_music;
+ concept_blues_music;
+ concept_jazz_music;
+ concept_chanson_music;
+ concept_electro_music;
+ concept_rock_music;
+ concept_hip_hop_music;
+ concept_pop_music;
+ concept_aria;
+ concept_ballad;
+ concept_ballet;
+ concept_cantata;
+ concept_cantilena;
+ concept_type_concert;
+ concept_type_march;
+ concept_type_musical;
+ concept_nocturne;
+ concept_opera;
+ concept_operette;
+ concept_choir;
+ concept_song;
+ concept_poptuirre;
+ concept_type_play;
+ concept_rhapsody;
+ concept_requiem;
+ concept_type_romance;
+ concept_rondo;
+ concept_symphony;
+ concept_serenade;
+ concept_etude;;
+
+subject_domain_of_music
+=>nrel_system_idtf:[subject_domain_of_music];
+=>nrel_main_idtf:[Subject domain of music](*<-lang_en;;*);
+=>nrel_main_idtf:[Предметная область музыки](*<-lang_ru;;*);
+
+=>nrel_primary_elements_class_private_subject_domain:subject_domain_of_musical_history;
+<=nrel_primary_elements_class_private_subject_domain:subject_domain_of_art;
+
+->rrel_maximum_studied_object_class:concept_music;
+
+->rrel_not_maximum_studied_object_class:concept_composer;
+concept_performer;
+concept_musiciant;
+concept_folk_music;
+concept_sacred_music;
+concept_classical_music;
+concept_country_music;
+concept_latina_music;
+concept_blues_music;
+concept_jazz_music;
+concept_chanson_music;
+concept_electro_music;
+concept_rock_music;
+concept_hip_hop_music;
+concept_pop_music;
+concept_aria;
+concept_ballad;
+concept_ballet;
+concept_cantata;
+concept_cantilena;
+concept_type_concert;
+concept_type_march;
+concept_type_musical;
+concept_nocturne;
+concept_opera;
+concept_operette;
+concept_choir;
+concept_song;
+concept_poptuirre;
+concept_type_play;
+concept_rhapsody;
+concept_requiem;
+concept_type_romance;
+concept_rondo;
+concept_symphony;
+concept_serenade;
+concept_etude;
+
+->rrel_explored_relation:nrel_composer;
+ nrel_song_text;
+ nrel_musical_genre;
+ nrel_musical_scale;
+ nrel_tonality;
+ nrel_performer;
+ nrel_team_member;
+ nrel_soloist;
+ nrel_guitar_player;
+ nrel_drummer;
+ nrel_pianist;
+ nrel_keyboardist;
+ nrel_musical_timing;
+ nrel_type_of_musical_composition;
+
+<-subject_domain;
+<-structure;;
+
+section_subject_domain_of_musical_history
+=>nrel_system_idtf:[section_subject_domain_of_musical_history];
+=>nrel_main_idtf:[Section. Subject domain of musical history](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область истории музыки](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+
+section_subject_domain_of_musical_theory
+=>nrel_system_idtf:[section_subject_domain_of_musical_theory];
+=>nrel_main_idtf:[Section. Subject domain of musical theory](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыкальной теории](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+section_subject_domain_of_classification_of_musical_compositions
+=>nrel_system_idtf:[section_subject_domain_of_classification_of_musical_compositions];
+=>nrel_main_idtf:[Section. Subject domain of classification of musical compositions](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область классификаций музыкальных произведений](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+
+section_subject_domain_of_composers
+=>nrel_system_idtf:[section_subject_domain_of_composers];
+=>nrel_main_idtf:[Section. Subject domain of composers](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область композиторов](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+
+section_subject_domain_of_musical_performers
+=>nrel_system_idtf:[section_subject_domain_of_musical_performers];
+=>nrel_main_idtf:[Section. Subject domain of musical performers](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыкальных исполнителей](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+section_subject_domain_of_musical_instruments
+=>nrel_system_idtf:[section_subject_domain_of_musical_instruments];
+=>nrel_main_idtf:[Section. Subject domain of musical instruments](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыкальных инструментов](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+section_subject_domain_of_musical_festivals
+=>nrel_system_idtf:[section_subject_domain_of_musical_festivals];
+=>nrel_main_idtf:[Section. Subject domain of musical festivals](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыкальных фестивалей](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+section_subject_domain_of_music_awards
+=>nrel_system_idtf:[section_subject_domain_of_music_awards];
+=>nrel_main_idtf:[Section. Subject domain of music awards](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыкальных премий](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+section_subject_domain_of_musical_competitions
+=>nrel_system_idtf:[section_subject_domain_of_musical_competitions];
+=>nrel_main_idtf:[Section. Subject domain of musical competitions](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область музыкальных конкурсов](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;
+
+section_subject_domain_of_art
+=>nrel_system_idtf:[section_subject_domain_of_art];
+=>nrel_main_idtf:[Section. Subject domain of art](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область икусства](*<-lang_ru;;*);
+
+<-non_atomic_section;
+<-not_enough_formed_structure;;

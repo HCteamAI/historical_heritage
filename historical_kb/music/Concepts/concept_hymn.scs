@@ -1,0 +1,134 @@
+concept_hymn
+<-sc_const;
+<-sc_node_not_relation;
+<- concept_song;
+=>nrel_system_idtf:[concept_hymn];
+
+=> nrel_main_idtf:
+	[гимн]
+	(*
+	<- lang_ru;;
+	*);
+	[hymn]
+	(*
+	<- lang_en;;
+	*);
+	[гімн]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Гимн — песня, восхваляющая и прославляющая кого-либо или что-либо.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Гімн - песня, якая ўсхваляе і ўслаўляе каго-небудзь ці што-небудзь.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+=>nrel_inclusion:
+    concept_national_hymn;;
+  
+concept_national_hymn
+=>nrel_system_idtf:[concept_national_hymn];
+
+=> nrel_main_idtf:
+	[национальный гимн]
+	(*
+	<- lang_ru;;
+	*);
+	[national hymn]
+	(*
+	<- lang_en;;
+	*);;
+	
+	
+hymn_of_Belarus
+<- sc_node_not_relation;
+<- concept_hymn;
+<- concept_national_hymn;
+
+=> nrel_main_idtf:
+	[Государственный гимн Республики Беларусь]
+	(* <- lang_ru;;*);
+	[The national hymn of the Republic of Belarus]
+	(* <- lang_en;;*);
+	[Дзяржаўны гiмн Рэспублiкi Беларусь]
+	(* <- lang_by;;*);
+
+
+=>nrel_state_symbol:
+	republic_of_belarus;
+		
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Государственный гимн Республики Беларусь - музыкально-поэтическое произведение, исполняемое в торжественных случаях, перечень которых закрепляется в законодательстве.](*<-lang_ru;;*);;
+		*);
+		...
+		(*
+		-> rrel_example:
+			[The national hymn of the Republic of Belarus is a musical and poetic work performed on solemn occasions, the list of which is fixed in the legislation.](*<-lang_en;;*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Дзяржаўны гімн Рэспублікі Беларусь - музычна-паэтычны твор, які выконваецца ва ўрачыстых выпадках, пералік якіх замацоўваецца ў заканадаўстве.](*<-lang_by;;*);;
+		*);;
+		
+	<=nrel_song_text:
+		...
+		(*
+		-> rrel_example:
+			[
+			Мы, беларусы – мірныя людзі,
+			Сэрцам адданыя роднай зямлі,
+			Шчыра сябруем, сілы гартуем
+			Мы ў працавітай, вольнай сям’і.
+
+			Слаўся, зямлі нашай светлае імя,
+			Слаўся, народаў братэрскі саюз!
+			Наша любімая маці-Радзіма,
+			Вечна жыві і квітней, Беларусь!
+
+			Разам з братамі мужна вякамі
+			Мы баранілі родны парог,
+			У бітвах за волю, бітвах за долю
+			Свой здабывалі сцяг перамог!
+
+			Слаўся, зямлі нашай светлае імя,
+			Слаўся, народаў братэрскі саюз!
+			Наша любімая маці-Радзіма,
+			Вечна жыві і квітней, Беларусь!
+
+			Дружба народаў – сіла народаў –
+			Наш запаветны, сонечны шлях.
+			Горда ж узвіся ў ясныя высі,
+			Сцяг пераможны – радасці сцяг!
+
+			Слаўся, зямлі нашай светлае імя,
+			Слаўся, народаў братэрскі саюз!
+			Наша любімая маці-Радзіма,
+			Вечна жыві і квітней, Беларусь!
+			](*<-lang_by;;*);;
+		*);;
+	*);;

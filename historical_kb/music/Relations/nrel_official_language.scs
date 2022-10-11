@@ -1,0 +1,42 @@
+nrel_official_language
+
+=>nrel_system_idtf:[nrel_official_language];
+
+=>nrel_main_idtf:
+  [официальный язык*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [official language*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [афіцыйная мова*] (* <-lang_by;; *);
+
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    concept_country;   
+    
+=> nrel_second_domain:
+    language;
+
+<-relation;
+<- binary_relation;
+<- oriented_relation;
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[официальный язык* - бинарное отношение, связывающее государство и язык, имеющий привилегированный статус в государстве.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[афіцыйная мова* - бінарнае стаўленне, якое звязвае дзяржаву і мову, якая мае прывілеяваны статус у дзяржаве.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;

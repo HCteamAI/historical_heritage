@@ -1,0 +1,46 @@
+nrel_rite
+
+=>nrel_system_idtf:[nrel_rite];
+
+=>nrel_main_idtf:
+  [обычай*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [rite*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [звычай*] (* <-lang_by;; *);
+
+<-sc_node_norole_relation;
+<-sc_const;
+
+=> nrel_first_domain:
+    community;
+    social_group;
+    
+    
+=> nrel_second_domain:
+    behavioral_action;
+
+<-relation;
+<- binary_relation;
+<- oriented_relation;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[обычай* - бинарное отношение, связывающее общество (социальную группу) и унаследованный стереотипный способ поведения, набор поведенческих действий, который воспроизводится в этом обществе или является привычным для него.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[звычай* - бінарнае стаўленне, якое злучае грамадства (сацыяльную групу) і ўспадкаваны стэрэатыпны спосаб паводзін, набор паводзінаў, які ўзнаўляецца ў гэтым грамадстве або з'яўляецца звыклым для яго.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;
+	
+

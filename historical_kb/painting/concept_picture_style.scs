@@ -1,0 +1,29 @@
+concept_picture_style
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[стиль картины](*<-lang_ru;;*);
+	[picture style](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_picture_style_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_picture_style_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_picture_style
+<= nrel_inclusion: {
+    concept_symbolism_style;
+    concept_surrealism_style;
+    concept_realism_style;
+    concept_romanticism_style;
+    concept_neoclassicism_style;
+    concept_modernism_style;
+    concept_cubism_style;
+    concept_expressionism_style;
+    concept_impressionism_style
+};;
+

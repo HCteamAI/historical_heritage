@@ -1,0 +1,33 @@
+concept_statue
+<-sc_node_not_relation;
+=> nrel_main_idtf:
+	[Статуя]
+	(*
+	<- lang_ru;;
+	*);
+	[Statue]
+	(*
+	<- lang_en;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_definition;;
+	<=nrel_sc_text_translation:...
+		(*
+		->rrel_example: "file://html_files/statue_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://html_files/statue_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Статуя )](*<-lang_ru;;*);
+		[Pic. (Statue)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/statue.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+<= nrel_inclusion: concept_round_sculpture;;

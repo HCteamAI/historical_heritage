@@ -1,0 +1,40 @@
+concept_type_march
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_type_march];
+
+=> nrel_main_idtf:
+	[марш]
+	(*
+	<- lang_ru;;
+	*);
+	[march]
+	(*
+	<- lang_en;;
+	*);
+	[марш]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Марш — музыкальный жанр; ритмичная музыка, обычно исполняемая на духовых и ударных инструментах.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Марш - музычны жанр; рытмічная музыка, звычайна выкананая на духавых і ўдарных прыладах.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

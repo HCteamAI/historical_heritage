@@ -1,0 +1,53 @@
+nrel_musical_performer
+<- sc_node_norole_relation;
+<- binary_relation;
+=> nrel_main_idtf:
+	[исполнитель*]
+	(* <- lang_ru;; *);
+	[musical performer*]
+	(* <- lang_en;; *);
+	[выканаўца*]
+	(* <- lang_by;; *);
+	
+=>nrel_system_idtf:[nrel_musical_performer];
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[исполнитель* - это бинарное отношение, связывающее музыкальное произведение и музыканта, который участвовал в создании или  который участвует в его исполнении.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[выканаўца* - гэта бінарнае стаўленне, якое злучае музычны твор і музыканта, які ўдзельнічаў у стварэнні ці які ўдзельнічае ў яго выкананні.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+
+=> nrel_first_domain:
+	concept_musical_composition;
+
+=> nrel_second_domain:
+	concept_musiciant;
+
+=> nrel_definitional_domain:
+	...
+	(*
+		<= nrel_combination:
+		{
+			concept_musical_composition;
+			concept_musiciant
+		};;
+
+	*);;
+

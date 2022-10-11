@@ -1,0 +1,54 @@
+nrel_historical_and_cultural_value
+
+=>nrel_system_idtf:[nrel_historical_and_cultural_value];
+
+=>nrel_main_idtf:
+  [историко-культурная ценность*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [historical and cultural value*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [гісторыка-культурная каштоўнасць*] (* <-lang_by;; *);
+
+<-sc_const; 
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    concept_locality;
+=> nrel_second_domain:
+    historical_and_cultural_value;
+    
+
+<-relation;
+<- binary_relation;
+<- oriented_relation;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[историко-культурная ценность* - бинарное отношение, связывающее определенную историко-культурную ценность и населенный пункт, если в нем данная ценность была создана и была признана там историко-культурной ценностью.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[гісторыка-культурная каштоўнасць* - бінарнае стаўленне, якое звязвае пэўную гісторыка-культурную каштоўнасць і населены пункт, калі ў ім дадзеная каштоўнасць была створана і была прызнана там гісторыка-культурнай каштоўнасцю.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;
+	
+	
+populated_punt
+
+=>nrel_system_idtf:[populated_punt];
+
+=>nrel_main_idtf:
+  [населённый пункт] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [populated punt] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [населены пункт] (* <-lang_by;; *);;

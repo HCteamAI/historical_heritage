@@ -1,0 +1,55 @@
+section_subject_domain_of_gidrology->[*
+
+sc_node_not_relation->subject_domain_of_gidrology;
+	section_subject_domain_of_gidrology;
+	concept_gidrology_object;;
+
+section_subject_domain_of_gidrology=>nrel_system_idtf:[section_subject_domain_of_gidrology];
+	=>nrel_main_idtf:[Section. Subject domain of gidrology](*<-lang_en;;*);
+	=>nrel_main_idtf:[Раздел. Предметная область гидрологии суши](*<-lang_ru;;*);
+			
+->rrel_key_sc_element:
+	subject_domain_of_gidrology;
+	concept_gidrology_object;
+	concept_river;
+	concept_lake;
+	concept_swamp;
+	concept_reservoir;
+	concept_stream;
+	concept_underwater;
+	concept_pond;
+	concept_rill;
+	nrel_inflow;
+	nrel_source;
+	nrel_mouth;
+	
+<-atomic_section;;
+
+section_subject_domain_of_gidrology = [*
+
+subject_domain_of_gidrology=>nrel_system_idtf:[subject_domain_of_gidrology];
+	=>nrel_main_idtf:[Subject domain of gidrology](*<-lang_en;;*);
+	=>nrel_main_idtf:[Предметная область гидрологии суши](*<-lang_ru;;*);
+
+->rrel_explored_relation:
+	nrel_inflow;
+	nrel_source;
+	nrel_mouth;	
+	
+
+->rrel_maximum_studied_object_class:concept_gidrology_object;
+
+->rrel_not_maximum_studied_object_class:
+	concept_river;
+	concept_lake;
+	concept_swamp;
+	concept_reservoir;
+	concept_stream;
+	concept_underwater;
+	concept_pond;
+	concept_rill;
+
+	
+<-subject_domain;;
+*];;
+*];;

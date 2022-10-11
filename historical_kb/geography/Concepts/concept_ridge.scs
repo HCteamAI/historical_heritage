@@ -1,0 +1,34 @@
+concept_ridge
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[хребет]
+	(*
+	<- lang_ru;;
+	*);
+	[ridge]
+	(*
+	<- lang_en;;
+	*);
+	
+<- rrel_sc_key_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Хребет - горная цепь.]
+			(*
+			<- lang_ru;;
+			*);;
+		->rrel_example:
+			[A ridge is a mountain chain.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

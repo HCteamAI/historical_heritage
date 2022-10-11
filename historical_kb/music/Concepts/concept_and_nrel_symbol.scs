@@ -1,0 +1,107 @@
+nrel_state_symbol
+
+=>nrel_system_idtf:[nrel_state_symbol];
+
+=>nrel_main_idtf:
+  [государственный символ*] (* <-lang_ru;; *);
+=>nrel_main_idtf:
+  [state symbol*] (* <-lang_en;; *);
+=>nrel_main_idtf:
+  [дзяржаўны сімвал*] (* <-lang_by;; *);
+
+<-sc_node_norole_relation;
+
+=> nrel_first_domain:
+    concept_country;
+    
+    
+=> nrel_second_domain:
+    concept_state_symbol;
+    
+<-relation;
+<- binary_relation;
+<- oriented_relation;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<- sc_explanation;;   
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[государственный символ* - бинарное отношение, связывающее государство и символику данного государства.]
+			(* 
+			<- lang_ru;; 
+			*);
+			[дзяржаўны сімвал* - бінарнае стаўленне, якое злучае дзяржаву і сімволіку дадзенай дзяржавы.]
+			(* 
+			<- lang_by;; 
+			*);;
+		*);;
+	*);;
+	
+	
+concept_state_symbol
+
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_state_symbol];
+
+=> nrel_main_idtf:
+	[государственный символ]
+	(*
+	<- lang_ru;;
+	*);
+	[state symbol]
+	(*
+	<- lang_en;;
+	*);
+	[дзяржаўны сімвал]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Государственные символы — установленные конституцией, специальными законами или традициями особые, как правило исторически сложившиеся, отличительные символы (знаки) этого государства, олицетворяющие его национальный суверенитет, самобытность.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Дзяржаўныя сімвалы - ўсталяваныя канстытуцыяй, адмысловымі законамі ці традыцыямі адмысловыя, як правіла гістарычна якія склаліся, адметныя знакі (знакі) гэтай дзяржавы, якія ўвасабляюць яго нацыянальны суверэнітэт, самабытнасць.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);
+	
+=>nrel_inclision:
+    concept_flag;
+    concept_coat_of_arms;
+    concept_hymn;
+    
+<=nrel_inclision:
+    concept_symbol;;
+
+concept_symbol
+
+=>nrel_system_idtf:[concept_symbol];
+
+=> nrel_main_idtf:
+	[символ]
+	(*
+	<- lang_ru;;
+	*);
+	[symbol]
+	(*
+	<- lang_en;;
+	*);;
+

@@ -1,0 +1,29 @@
+peter_and_paul_cathedral
+
+=> nrel_main_idtf:
+	[Петропавловский собор]
+	(*<-lang_ru;;*);
+	[Peter and Paul Cathedral]
+	(*<-lang_en;;*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Петропавловский собор)](*<-lang_ru;;*);
+		[Pic. (Peter and Paul Cathedral)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/peter_and_paul_cathedral.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<= nrel_location: Homel;
+<= nrel_architectural_style: concept_classicism_style;
+<= nrel_period_of_existence: 1809_pt;
+<= nrel_architect: J_Clark;
+<= nrel_construction_period: 1809_1819; 	
+<= nrel_construction_material: brick;
+<- concept_building_in_good_condition;
+<- concept_monuments_of_architecture;
+<- concept_cathedral;;

@@ -1,0 +1,45 @@
+nrel_flora_representative
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[представитель флоры*]
+	(*
+	<- lang_ru;;
+	*);
+	[flora representative*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_country;
+	
+=> nrel_second_domain: 	
+	concept_plant;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Представитель флоры* - это бинарное отношение, описывающее принадлежность растения к биоте определенной географической местности.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Flora representative* is a binary relation that describes the belonging of a plant to the biota of a certain geographical area.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

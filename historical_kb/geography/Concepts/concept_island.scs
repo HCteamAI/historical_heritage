@@ -1,0 +1,39 @@
+concept_island
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[остров]
+	(*
+	<- lang_ru;;
+	*);
+	[island]
+	(*
+	<- lang_en;;
+	*);
+	
+
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Остров - часть суши, со всех сторон окружённая водой.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[An island is a piece of land surrounded by water on all sides.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

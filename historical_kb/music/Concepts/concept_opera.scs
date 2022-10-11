@@ -1,0 +1,40 @@
+concept_opera
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_opera];
+
+=> nrel_main_idtf:
+	[опера]
+	(*
+	<- lang_ru;;
+	*);
+	[opera]
+	(*
+	<- lang_en;;
+	*);
+	[опера]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Опера — музыкально-театральный жанр, основанный на синтезе музыки, сценического действия и слова.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Опера - музычна-тэатральны жанр, заснаваны на сінтэзе музыкі, сцэнічнага дзеяння і слова.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

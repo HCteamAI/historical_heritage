@@ -1,0 +1,109 @@
+concept_ingredients
+<-sc_node_class;
+=>nrel_main_idtf:
+	[ингредиенты](*<-lang_ru;;*);
+	[ingredients](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		 ->rrel_example: "file://HTML/concept_ingredients_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		 ->rrel_example: "file://HTML/concept_ingredients_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);
+
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (ингредиенты)](*<-lang_ru;;*);
+		[Pic. (ingredients)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		 ->"file://pics/concept_ingredients.jpeg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+
+<= nrel_inclusion:
+ Orange;
+ Mutton;
+ Bacon;
+ White_mushrooms;
+ Swede;
+ Vanilla;
+ Apple_jam;
+ Water;
+ Vodka;
+ Carnation;
+ Pea_mash;
+ Buckwheat;
+ Mushrooms;
+ Brisket;
+ Yeast;
+ Oak_bark;
+ Allspice;
+ Greenery;
+ Zubrovka;
+ Raisin;
+ Ginger;
+ Figs;
+ Cabbage;
+ Cardamom;
+ Potato;
+ Kvass;
+ Sausages;
+ Hunting_sausages;
+ Coriander;
+ Cinnamon;
+ Starch;
+ Chicken_bouillon;
+ Turmeric;
+ Bay_leaf;
+ Lemon;
+ Citric_acid;
+ Lemon_peel;
+ Pear_leaves;
+ Apple_leaves;
+ Onion;
+ Bulbs;
+ Onion_vegetables;
+ Butter;
+ Honey;
+ Milk;
+ Ground_coffee;
+ Carrot;
+ Flour;
+ Nutmeg;
+ Breadcrumbs;
+ Black_pepper;
+ Parsley;
+ Beer;
+ Curdled_milk;
+ Vegetable_oil;
+ Pork_ribs;
+ Salo;
+ Sugar;
+ Beet;
+ Pork;
+ Minced_pork;
+ Whipped_cream;
+ Sour_cream;
+ Salt;
+ Alcohol;
+ Cottage_cheese;
+ Caraway;
+ Tomato_paste;
+ Dill;
+ Dates;
+ Bread;
+ Bread_croutons;
+ Oat_flakes;
+ Garlic;
+ Saffron;
+ Cracklings;
+ Berries;
+ Yolk;
+ Eggs;;
+

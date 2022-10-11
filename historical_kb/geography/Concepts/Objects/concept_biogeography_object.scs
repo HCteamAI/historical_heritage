@@ -1,0 +1,41 @@
+concept_biogeography_object
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[биогеографический объект]
+	(*
+	<- lang_ru;;
+	*);
+	[biogeography object]
+	(*
+	<- lang_en;;
+	*);
+	
+=> nrel_inclusion: 
+	concept_animal;
+	concept_plant;
+
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Объект биогеографии — закономерности географического распространения и динамики организмов и их сообществ в зависимости от условий географической среды.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[The object of biogeography is the patterns of geographical distribution and dynamics of organisms and their communities depending on the conditions of the geographical environment.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+

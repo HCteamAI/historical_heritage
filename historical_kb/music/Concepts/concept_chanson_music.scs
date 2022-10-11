@@ -1,0 +1,40 @@
+concept_chanson_music
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_chanson_music];
+
+=> nrel_main_idtf:
+	[шансон]
+	(*
+	<- lang_ru;;
+	*);
+	[chanson music]
+	(*
+	<- lang_en;;
+	*);
+	[шансон]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Шансон - французская эстрадная песня в стиле кабаре.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[Шансон - французская эстрадная песня ў стылі кабарэ.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;

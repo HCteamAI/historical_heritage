@@ -1,0 +1,39 @@
+section_subject_domain_of_social_economic_geography->[*
+
+sc_node_not_relation->subject_domain_of_social_economic_geography;
+	section_subject_domain_of_social_economic_geography;
+	concept_social_economic_geography_object;;
+	
+section_subject_domain_of_social_economic_geography=>nrel_system_idtf:[section_subject_domain_of_social_economic_geography];
+	=>nrel_main_idtf:[Section. Subject domain of social economic geography](*<-lang_en;;*);
+	=>nrel_main_idtf:[Раздел. Предметная область социально-экономической географии](*<-lang_ru;;*);
+				
+=>nrel_section_base_order:
+	section_subject_domain_of_countries;
+
+->rrel_key_sc_element:
+	subject_domain_of_social_economic_geography;
+	nrel_population;
+	nrel_square;
+	concept_social_economic_geography_object;
+
+<-non_atomic_section;;
+
+section_subject_domain_of_social_economic_geography = [*
+
+subject_domain_of_social_economic_geography=>nrel_system_idtf:[subject_domain_of_social_economic_geography];
+	=>nrel_main_idtf:[Subject domain of social economic geography](*<-lang_en;;*);
+	=>nrel_main_idtf:[Предметная область социально-экономической географии](*<-lang_ru;;*);
+	
+=>nrel_private_subject_domain:
+	section_subject_domain_of_countries;
+
+->rrel_explored_relation:
+	nrel_population;
+	nrel_square;
+
+->rrel_maximum_studied_object_class:concept_social_economic_geography_object;
+	
+<-subject_domain;;
+*];;
+*];;

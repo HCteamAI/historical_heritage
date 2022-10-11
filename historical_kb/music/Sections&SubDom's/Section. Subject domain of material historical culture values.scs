@@ -1,0 +1,97 @@
+section_subject_domain_of_material_historical_cultural_values -> [*
+
+sc_node_not_relation->subject_domain_of_historical_and_cultural_heritage;
+subject_domain_of_material_historical_cultural_values;
+urban_planning_monuments;
+archeological_monuments;
+monuments_of_architecture;
+documentary_monuments;
+monuments_of_art;
+historical_monuments;
+reserved_places;;
+
+section_subject_domain_of_material_historical_cultural_values=>nrel_system_idtf:[section_subject_domain_of_material_historical_cultural_values];
+=>nrel_main_idtf:[Section. Subject domain of material historical and cultural value](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область материальных историко-культурных ценностей](*<-lang_ru;;*);
+
+<= nrel_section_decomposition:{
+section_subject_domain_of_urban_planning_monuments; 
+section_subject_domain_of_monuments_of_architecture; 
+section_subject_domain_of_archeological_monuments;
+section_subject_domain_of_documentary_monuments;
+section_subject_domain_of_monuments_of_art;
+section_subject_domain_of_historical_monuments;
+section_subject_domain_of_reserved_places};
+
+<-non_atomic_section;
+<-not_enough_formed_structure;
+
+->rrel_key_sc_element:
+subject_domain_of_material_historical_cultural_values;
+urban_planning_monuments;
+archeological_monuments;
+monuments_of_architecture;
+documentary_monuments;
+monuments_of_art;
+historical_monuments;
+reserved_places;;
+
+
+section_subject_domain_of_material_historical_cultural_values =[*
+subject_domain_of_material_historical_cultural_values
+=>nrel_system_idtf:[subject_domain_of_material_historical_cultural_values];
+=>nrel_main_idtf:[Subject domain of material historical and cultural values](*<-lang_en;;*);
+=>nrel_main_idtf:[Предметная область материальных историко-культурных ценностей](*<-lang_ru;;*);
+
+
+->rrel_maximum_studied_object_class:material_historical_and_cultural_value;
+->rrel_not_maximum_studied_object_class:
+urban_planning_monuments;
+archeological_monuments;
+monuments_of_architecture;
+documentary_monuments;
+monuments_of_art;
+historical_monuments;
+reserved_places;
+
+<-subject_domain;
+<-structure;;
+
+*];;
+
+*];;
+
+section_subject_domain_of_urban_planning_monuments
+=>nrel_system_idtf:[section_subject_domain_of_urban_planning_monuments];
+=>nrel_main_idtf:[Section. Subject domain of urban planning monuments](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область памятников градостроительства](*<-lang_ru;;*);;
+
+section_subject_domain_of_archeological_monuments
+=>nrel_system_idtf:[section_subject_domain_of_archeological_monuments];
+=>nrel_main_idtf:[Section. Subject domain of archeological monuments](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область памятников археологии](*<-lang_ru;;*);;
+ 
+section_subject_domain_of_monuments_of_architecture
+=>nrel_system_idtf:[section_subject_domain_of_monuments_of_architecture];
+=>nrel_main_idtf:[Section. Subject domain of  monuments of architecture](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область памятников архитектуры](*<-lang_ru;;*);;
+
+section_subject_domain_of_documentary_monuments
+=>nrel_system_idtf:[section_subject_domain_of_documentary_monuments];
+=>nrel_main_idtf:[Section. Subject domain of documentary monuments](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область документальных памятников](*<-lang_ru;;*);;
+
+section_subject_domain_of_monuments_of_art
+=>nrel_system_idtf:[section_subject_domain_of_monuments_of_art];
+=>nrel_main_idtf:[Section. Subject domain of monuments of art](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область памятников искусства](*<-lang_ru;;*);;
+
+section_subject_domain_of_historical_monuments
+=>nrel_system_idtf:[section_subject_domain_of_historical_monuments];
+=>nrel_main_idtf:[Section. Subject domain of historical monuments](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область исторических памятников](*<-lang_ru;;*);;
+
+section_subject_domain_of_reserved_places
+=>nrel_system_idtf:[section_subject_domain_of_reserved_places];
+=>nrel_main_idtf:[Section. Subject domain of reserved places](*<-lang_en;;*);
+=>nrel_main_idtf:[Раздел. Предметная область заповедных мест](*<-lang_ru;;*);;

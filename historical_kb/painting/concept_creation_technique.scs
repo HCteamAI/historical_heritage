@@ -1,0 +1,24 @@
+concept_creation_technique
+<-sc_node_not_relation;
+=>nrel_main_idtf:
+	[техника создания](*<-lang_ru;;*);
+	[creation technique](*<-lang_en;;*);
+
+<-rrel_key_sc_element:...
+(*
+	<-definition;;
+	<=nrel_sc_text_translation:...
+	(*
+		->rrel_example: "file://HTML/concept_creation_technique_def_ru.html"(*<-lang_ru;;=>nrel_format:format_html;;*);;
+		->rrel_example: "file://HTML/concept_creation_technique_def_en.html"(*<-lang_en;;=>nrel_format:format_html;;*);;
+	*);;
+*);;
+
+concept_creation_technique
+<= nrel_inclusion: {
+    concept_encaustic;
+    concept_tempera;
+    concept_asecco;
+    concept_fresco
+};;
+

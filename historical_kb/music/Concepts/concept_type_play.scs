@@ -1,0 +1,40 @@
+concept_type_play
+<-sc_const;
+<-sc_node_not_relation;
+=>nrel_system_idtf:[concept_type_play];
+
+=> nrel_main_idtf:
+	[пьеса]
+	(*
+	<- lang_ru;;
+	*);
+	[musical play]
+	(*
+	<- lang_en;;
+	*);
+	[п'еса]
+	(*
+	<- lang_by;;
+	*);
+<- rrel_key_sc_element:
+	...
+	(*
+	<-sc_explanation;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Пьеса — небольшое музыкальное, обычно инструментальное, реже вокальное произведение лирического или виртуозного характера.]
+			(*
+			<- lang_ru;;
+			*);;
+		*);
+			...
+		(*
+		-> rrel_example:
+			[П'еса – невялікі музычны, звычайна інструментальны, радзей вакальны твор лірычнага ці віртуознага характару.]
+			(*
+			<- lang_by;;
+			*);;
+		*);;
+	*);;
