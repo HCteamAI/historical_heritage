@@ -14,8 +14,7 @@ rrel_degree
 	<- lang_en;;
 	*);
 
-=> nrel_first_domain: 
-	concept_number;
+=> nrel_first_domain: sc_link;
 
 <- rrel_key_sc_element:
 	...
@@ -25,7 +24,7 @@ rrel_degree
 		...
 		(*
 		->rrel_example:
-			[Градус — единица измерения плоских углов.]
+			[Градус' — единица измерения плоских углов.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -33,7 +32,7 @@ rrel_degree
 		...
 		(*
 		->rrel_example:
-			[Degree is a unit of measure for planar angles.]
+			[Degree' is a unit of measure for planar angles.]
 			(*
 			<- lang_en;;
 			*);;

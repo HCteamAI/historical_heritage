@@ -14,11 +14,8 @@ rrel_longitude
 	<- lang_en;;
 	*);
 
-=> nrel_first_domain: 
-	concept_coordinate;
-
-=> nrel_second_domain: 
-	concept_number;
+=> nrel_first_domain: concept_coordinate;
+=> nrel_second_domain: sc_link;
 
 <- rrel_key_sc_element:
 	...
@@ -29,7 +26,7 @@ rrel_longitude
 		...
 		(*
 		->rrel_example:
-			[Географическая долгота — угловое расстояние от начального меридиана до меридиана в данной точке, отсчитываемое к западу и востоку.]
+			[Географическая долгота' — угловое расстояние от начального меридиана до меридиана в данной точке, отсчитываемое к западу и востоку.]
 			(*
 			<- lang_ru;;
 			*);;
@@ -37,7 +34,7 @@ rrel_longitude
 		...
 		(*
 		->rrel_example:
-			[Geographic longitude - the angular distance from the initial meridian to the meridian at a given point, counted to the west and east.]
+			[Geographic longitude' - the angular distance from the initial meridian to the meridian at a given point, counted to the west and east.]
 			(*
 			<- lang_en;;
 			*);;
