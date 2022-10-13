@@ -16,7 +16,7 @@ nrel_geographical_location
 => nrel_first_domain: 
 	concept_geography_object;
 => nrel_second_domain: 	
-	concept_mapped_object;
+	concept_coordinate;
 	
 <- rrel_key_sc_element:
 	...
