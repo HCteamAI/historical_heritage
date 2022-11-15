@@ -36,7 +36,7 @@ namespace exampleModule
         }                 
       }
     }
-
+    SC_LOG_ERROR("Find way");
     ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, first, answer);  
     return answer;
   }
@@ -47,6 +47,7 @@ namespace exampleModule
     ScLog *logger = ScLog::GetInstance();
 
     if (!edgeAddr.IsValid())
+      SC_LOG_ERROR("Result Error");
       return SC_RESULT_ERROR;
     
     ScAddr questionNode = ms_context->GetEdgeTarget(edgeAddr);
@@ -78,18 +79,23 @@ namespace exampleModule
 
       ScTemplate scTemplate;
       string toDelete = "_to_delete";
-      scTemplate.Triple(
-        node,
-        ScType::EdgeAccessVarPosPerm >> toDelete,
-        set
-      );
+
+      scTemplate.Triple(node, ScType::EdgeAccessVarPosPerm >> toDelete, set);
       ScTemplateSearchResult searchResult;
       ms_context->HelperSearchTemplate(scTemplate, searchResult);
       if (!searchResult.IsEmpty())
         ms_context->EraseElement(searchResult[0][toDelete]);
+
+      scTemplate.Triple(set, ScType::EdgeAccessVarPosPerm >> toDelete, node);
+      ScTemplateSearchResult searchResult1;
+      ms_context->HelperSearchTemplate(scTemplate, searchResult1);
+      if (!searchResult1.IsEmpty())
+        ms_context->EraseElement(searchResult1[0][toDelete]);  
     }
 
     utils::AgentUtils::finishAgentWork(ms_context.get(), questionNode);
+
+    SC_LOG_ERROR("FindBestWayAgent finished");
     return SC_RESULT_OK;
   }
 }
