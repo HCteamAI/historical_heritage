@@ -1,0 +1,29 @@
+ui_menu_object_coordinate_search <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_object_coordinate_search 
+=> nrel_main_idtf: 
+	[Какие координаты объекта?]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос поиски координат объекта]
+	(* <- lang_ru;; *);;
+
+ui_menu_object_coordinate_search 
+=> nrel_main_idtf: 
+	[What are the coordinates of the object?]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request searches for object coordinates]
+	(* <- lang_en;; *);;
+
+ui_menu_object_coordinate_search => ui_nrel_command_template:
+	[*
+		question_find_object_coordinate _-> ._question_find_object_coordinate_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_find_object_coordinate_instance _<- question;;
+	*];;
+
+ui_menu_subdividing_search => ui_nrel_command_lang_template: [Какие координаты $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_subdividing_search => ui_nrel_command_lang_template: [What are the coordinates of $ui_arg_1] (* <- lang_en;; *);;
