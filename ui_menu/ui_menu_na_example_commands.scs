@@ -9,5 +9,7 @@ ui_menu_na_example_commands
 		ui_menu_subdividing_search;
 		ui_menu_isomorphic_search;
 		ui_menu_find_best_way;
-		ui_menu_find_objects_in_radius
+		ui_menu_find_objects_in_radius;
+		ui_menu_all_object_coordinate_search;
+		ui_menu_object_coordinate_search
 	};;
