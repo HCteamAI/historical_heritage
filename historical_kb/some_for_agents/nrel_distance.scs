@@ -1,0 +1,45 @@
+nrel_distance
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[расстояние*]
+	(*
+	<- lang_ru;;
+	*);
+	[distance*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_way;
+	
+=> nrel_second_domain: 	
+	sc_link;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Расстояние* - это бинарное отношение, связывающее созданный путь и его расстояние.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Distance* is a binary relation between the created path and its distance.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

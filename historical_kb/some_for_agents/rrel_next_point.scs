@@ -1,0 +1,45 @@
+rrel_next_point
+<- sc_node_role_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[следующее место']
+	(*
+	<- lang_ru;;
+	*);
+	[next point']
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_geography_object;
+	
+=> nrel_second_domain: 	
+	concept_geography_object;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Следующее место' - это бинарное отношение, связывающее географические объекты, в том порядке, в котором они должны быть посещены.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[Next point' is a binary relation linking geographic objects in the order in which they should be visited.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

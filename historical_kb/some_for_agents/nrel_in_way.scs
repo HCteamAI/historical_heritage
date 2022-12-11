@@ -1,0 +1,45 @@
+nrel_in_way
+<- sc_node_norole_relation;
+<- relation;
+<- binary_relation;
+<- oriented_relation;
+=> nrel_main_idtf:
+	[принадлежит пути*]
+	(*
+	<- lang_ru;;
+	*);
+	[in way*]
+	(*
+	<- lang_en;;
+	*);
+
+=> nrel_first_domain: 
+	concept_way;
+	
+=> nrel_second_domain: 	
+	concept_geography_object;
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Принадлежит пути* - это бинарное отношение, связывающее созданный путь и географический объект, который принадлежит пути.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[In way* is a binary relation between the created path and the geographic object that belongs to the path.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+

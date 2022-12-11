@@ -1,0 +1,31 @@
+gen123
+<- sc_node_not_relation;
+-> rrel_1: Minsk;
+-> Grodno;
+-> Mogilev;
+-> Brest;;
+
+
+..1 -> (Minsk -> Brest); 
+=> nrel_distance: [4];; 
+ 
+..2 -> (Brest -> Minsk); => nrel_distance: [4];; 
+
+
+..3 -> (Minsk -> Grodno); => nrel_distance: [2];; 
+..4 ->(Grodno -> Minsk); => nrel_distance: [2];; 
+
+..5 ->(Minsk ->  Mogilev); => nrel_distance: [5];; 
+..6 ->(Mogilev -> Minsk); => nrel_distance: [5];; 
+
+..7 ->(Grodno -> Mogilev); => nrel_distance: [3];;  
+..8 ->(Mogilev -> Grodno); => nrel_distance: [3];; 
+
+..9 ->(Mogilev -> Brest); => nrel_distance: [7];; 
+..10 ->(Brest -> Mogilev); => nrel_distance: [7];; 
+
+..11 ->(Grodno -> Brest); => nrel_distance: [3];; 
+..12 ->(Brest -> Grodno); => nrel_distance: [3];; 
+
+
+

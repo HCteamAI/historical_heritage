@@ -1,0 +1,37 @@
+concept_way
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[путь]
+	(*
+	<- lang_ru;;
+	*);
+	[way]
+	(*
+	<- lang_en;;
+	*);	
+	
+<- rrel_key_sc_element:
+	...
+	(*
+	<-definition;;
+	<=nrel_sc_text_translation:
+		...
+		(*
+		->rrel_example:
+			[Путь - это последовательность географических объектов, связанных в маршрут.]
+			(*
+			<- lang_ru;;
+			*);;
+			*);
+		...
+		(*
+		->rrel_example:
+			[A way is a sequence of geographic objects linked into a route.]
+			(*
+			<- lang_en;;
+			*);;
+		*);;
+
+	*);;
+
+
