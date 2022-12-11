@@ -41,6 +41,15 @@ public:
 
   SC_PROPERTY(Keynode("rrel_next_point"), ForceCreate)
   static ScAddr rrel_next_point;
+  
+  SC_PROPERTY(Keynode("question_find_objects_in_radius"), ForceCreate)
+  static ScAddr question_find_objects_in_radius;
+ 
+  SC_PROPERTY(Keynode("located_in_radius"), ForceCreate)
+  static ScAddr located_in_radius;
+  
+  SC_PROPERTY(Keynode("concept_historical_and_cultural_heritage"), ForceCreate)
+  static ScAddr concept_historical_and_cultural_heritage;
 };
 
 } // namespace exampleModule
