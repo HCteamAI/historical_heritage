@@ -19,5 +19,16 @@ ScAddr Keynodes::rrel_next_point;
 ScAddr Keynodes::question_find_objects_in_radius;
 ScAddr Keynodes::concept_historical_and_cultural_heritage;
 ScAddr Keynodes::located_in_radius;
+  
+ScAddr Keynodes::question_filter_by;
+ScAddr Keynodes::question_monumental_filter;
+ScAddr Keynodes::question_literature_filter;
+ScAddr Keynodes::question_painting_filter;
+  
+ScAddr Keynodes::question_find_all_object_coordinate;
+ScAddr Keynodes::question_find_object_coordinate;
+ScAddr Keynodes::rrel_latitude;
+ScAddr Keynodes::rrel_longitude;
+ScAddr Keynodes::concept_coordinate;
 
 }
