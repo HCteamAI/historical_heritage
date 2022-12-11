@@ -1,0 +1,9 @@
+lib_component_ui_menu_main_filter
+=> nrel_main_idtf:
+	[Компонент библиотеки. Команда пользовательского интерфейса фильтрации культурного наследия]
+	(* <- lang_ru;; *);
+	[Library component. User interfaces command of filtration historical cultural heritage]
+	(* <- lang_en;; *);
+
+<- library_of_platform_independent_reusable_components;
+<- library_of_atomic_reusable_components;;

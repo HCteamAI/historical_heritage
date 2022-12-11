@@ -1,0 +1,29 @@
+ui_menu_literature_filter <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_two_argument_command_class;;
+
+ui_menu_literature_filter 
+=> nrel_main_idtf: 
+	[Фильтровать]
+	(* <- lang_ru;; *);
+=> nrel_idtf: 
+	[Запрос фильтрации]
+	(* <- lang_ru;; *);;
+
+ui_menu_literature_filter 
+=> nrel_main_idtf: 
+	[What is filter of the specified entity?]
+	(* <- lang_en;; *);
+=> nrel_idtf: 
+	[Request filter for of the specified entity]
+	(* <- lang_en;; *);;
+
+ui_menu_literature_filter => ui_nrel_command_template:
+	[*
+		question_filter_by _-> ._question_filter_by_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_filter_by_instance _<- question;;
+	*];;
+
+ui_menu_literature_filter => ui_nrel_command_lang_template: [Фильтровать по $ui_arg_1] (* <- lang_ru;; *);;
+ui_menu_literature_filter => ui_nrel_command_lang_template: [Filter by $ui_arg_1] (* <- lang_en;; *);;
