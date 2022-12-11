@@ -50,6 +50,33 @@ public:
   
   SC_PROPERTY(Keynode("concept_historical_and_cultural_heritage"), ForceCreate)
   static ScAddr concept_historical_and_cultural_heritage;
+  
+  SC_PROPERTY(Keynode("question_find_all_object_coordinate"), ForceCreate)
+  static ScAddr question_find_all_object_coordinate;
+
+  SC_PROPERTY(Keynode("question_find_object_coordinate"), ForceCreate)
+  static ScAddr question_find_object_coordinate;
+
+  SC_PROPERTY(Keynode("rrel_latitude"), ForceCreate)
+  static ScAddr rrel_latitude;
+
+  SC_PROPERTY(Keynode("rrel_longitude"), ForceCreate)
+  static ScAddr rrel_longitude;
+
+  SC_PROPERTY(Keynode("concept_coordinate"), ForceCreate)
+  static ScAddr concept_coordinate;
+  
+  SC_PROPERTY(Keynode("question_filter_by"), ForceCreate)
+  static ScAddr question_filter_by;
+
+  SC_PROPERTY(Keynode("question_monumental_filter"), ForceCreate)
+  static ScAddr question_monumental_filter;
+
+  SC_PROPERTY(Keynode("question_literature_filter"), ForceCreate)
+  static ScAddr question_literature_filter;
+
+  SC_PROPERTY(Keynode("question_painting_filter"), ForceCreate)
+  static ScAddr question_painting_filter;
 };
 
 } // namespace exampleModule
