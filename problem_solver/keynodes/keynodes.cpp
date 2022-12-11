@@ -16,5 +16,8 @@ ScAddr Keynodes::question_find_best_way;
 ScAddr Keynodes::in_way;
 ScAddr Keynodes::nrel_distance;
 ScAddr Keynodes::rrel_next_point;
+ScAddr Keynodes::question_find_objects_in_radius;
+ScAddr Keynodes::concept_historical_and_cultural_heritage;
+ScAddr Keynodes::located_in_radius;
 
 }
