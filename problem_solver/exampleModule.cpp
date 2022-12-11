@@ -14,6 +14,8 @@
 #include "agents/FilterMonumentalArt.hpp"
 #include "agents/FilterLiterature.hpp"
 #include "agents/FilterPainting.hpp"
+#include "agents/AllObjectCoordinatesSearchAgent.hpp"
+#include "agents/ObjectCoordinatesSearchAgent.hpp"
 
 
 using namespace exampleModule;
@@ -33,6 +35,8 @@ sc_result ExampleModule::InitializeImpl()
   SC_AGENT_REGISTER(FilterMonumentalArt)
   SC_AGENT_REGISTER(FilterLiterature)
   SC_AGENT_REGISTER(FilterPainting)
+  SC_AGENT_REGISTER(ObjectCoordinatesSearchAgent)
+  SC_AGENT_REGISTER(AllObjectCoordinatesSearchAgent)
 
   return SC_RESULT_OK;
 }
@@ -43,10 +47,12 @@ sc_result ExampleModule::ShutdownImpl()
   SC_AGENT_UNREGISTER(IsomorphicSearchAgent)
   SC_AGENT_UNREGISTER(FindBestWayAgent)
   SC_AGENT_UNREGISTER(agent_find_objects_in_radius)
-  SC_AGENT_REGISTER(MainFilter)
-  SC_AGENT_REGISTER(FilterMonumentalArt)
-  SC_AGENT_REGISTER(FilterLiterature)
-  SC_AGENT_REGISTER(FilterPainting)
+  SC_AGENT_UNREGISTER(MainFilter)
+  SC_AGENT_UNREGISTER(FilterMonumentalArt)
+  SC_AGENT_UNREGISTER(FilterLiterature)
+  SC_AGENT_UNREGISTER(FilterPainting)
+  SC_AGENT_UNREGISTER(ObjectCoordinatesSearchAgent)
+  SC_AGENT_UNREGISTER(AllObjectCoordinatesSearchAgent)
     
   return SC_RESULT_OK;
 }
