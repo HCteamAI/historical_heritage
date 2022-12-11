@@ -4,7 +4,6 @@
 #include <sc-memory/sc_stream.hpp>
 #include <sc-memory/sc_template_search.cpp>
 
-#include <sc-agents-common/utils/GenerationUtils.hpp>
 #include <sc-agents-common/utils/IteratorUtils.hpp>
 #include <sc-agents-common/utils/AgentUtils.hpp>
 
@@ -14,7 +13,7 @@ using namespace std;
 using namespace utils;
 
 namespace exampleModule
-
+{
 
 SC_AGENT_IMPLEMENTATION(IsomorphicSearchAgent)
 {

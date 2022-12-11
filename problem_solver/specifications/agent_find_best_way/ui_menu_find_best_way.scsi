@@ -1,0 +1,23 @@
+ui_menu_find_best_way <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_find_best_way 
+=> nrel_main_idtf: 
+	[Какой путь можно построить?]
+	(* <- lang_ru;; *);;
+
+ui_menu_find_best_way 
+=> nrel_main_idtf: 
+	[What path can be built?]
+	(* <- lang_en;; *);;
+
+ui_menu_find_best_way => ui_nrel_command_template:
+	[*
+		question_find_best_way _-> ._question_find_best_way_structures_instance
+			(*
+				_-> ui_arg_1;;
+			*);;
+		._question_find_best_way_structures_instance _<- question;;
+	*];;
+
+ui_menu_find_best_way => ui_nrel_command_lang_template: [Какой путь для $ui_arg_1 можно построить?] (* <- lang_ru;; *);;
+ui_menu_find_best_way => ui_nrel_command_lang_template: [What path for $ui_arg_1? can be built?] (* <- lang_en;; *);;
