@@ -9,5 +9,9 @@ ui_menu_na_example_commands
 		ui_menu_subdividing_search;
 		ui_menu_isomorphic_search;
 		ui_menu_find_best_way;
-		ui_menu_find_objects_in_radius
+		ui_menu_find_objects_in_radius;
+		ui_menu_main_filter;
+		ui_menu_monumental_filter;
+		ui_menu_literature_filter;
+		ui_menu_painting_filter
 	};;
