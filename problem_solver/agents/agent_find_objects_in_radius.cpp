@@ -29,7 +29,7 @@ SC_AGENT_IMPLEMENTATION(agent_find_objects_in_radius)
   if (!param.IsValid())
     return SC_RESULT_ERROR_INVALID_PARAMS;
   ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
-  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, Keynodes::in_radius_now);
+  ms_context->CreateEdge(ScType::EdgeAccessConstPosPerm, answer, Keynodes::located_in_radius);
   
   ScIterator3Ptr result_node = ms_context->Iterator3(Keynodes::located_in_radius,ScType::EdgeAccessConstPosPerm, ScType::NodeConst);
   while(result_node->Next())
@@ -60,16 +60,17 @@ SC_AGENT_IMPLEMENTATION(agent_find_objects_in_radius)
   {
     if(all_objects->Get(2).IsValid())
     {
-      ScIterator5Ptr object_coordinates = ms_context->Iterator5(all_objects->Get(2), ScType::EdgeAccessConstPosPerm, 
-      ScType::NodeConst, ScType::EdgeAccessConstPosPerm, ms_context->HelperFindBySystemIdtf("nrel_geographical_location"));
+      ScIterator5Ptr object_coordinates = ms_context->Iterator5( ScType::NodeConst, ScType::Unknown, 
+      all_objects->Get(2), ScType::EdgeAccessConstPosPerm, ms_context->HelperFindBySystemIdtf("nrel_geographical_location"));
       object_coordinates->Next();
+     
       ScIterator5Ptr object_x = ms_context->Iterator5(ScType::Link, ScType::EdgeAccessConstPosPerm, 
-      object_coordinates->Get(2), ScType::EdgeAccessConstPosPerm, ms_context->HelperFindBySystemIdtf("rrel_decart_x"));
+      object_coordinates->Get(0), ScType::EdgeAccessConstPosPerm, ms_context->HelperFindBySystemIdtf("rrel_x"));
       object_x->Next();
       if(object_x->Get(0).IsValid())
       ScStreamConverter::StreamToString(ms_context->GetLinkContent(object_x->Get(0)), current_object_x);
       ScIterator5Ptr object_y = ms_context->Iterator5(ScType::Link, ScType::EdgeAccessConstPosPerm, 
-      object_coordinates->Get(2), ScType::EdgeAccessConstPosPerm, ms_context->HelperFindBySystemIdtf("rrel_decart_y"));
+      object_coordinates->Get(0), ScType::EdgeAccessConstPosPerm, ms_context->HelperFindBySystemIdtf("rrel_y"));
       object_y->Next();
       if(object_y->Get(0).IsValid())
       ScStreamConverter::StreamToString(ms_context->GetLinkContent(object_y->Get(0)), current_object_y);
