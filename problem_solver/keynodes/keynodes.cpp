@@ -12,10 +12,14 @@ namespace exampleModule
 ScAddr Keynodes::question_find_subdividing;
 ScAddr Keynodes::nrel_subdividing;
 ScAddr Keynodes::question_find_isomorphic_structures;
+
 ScAddr Keynodes::question_find_best_way;
+ScAddr Keynodes::question_make_way;
 ScAddr Keynodes::in_way;
 ScAddr Keynodes::nrel_distance;
 ScAddr Keynodes::rrel_next_point;
+ScAddr Keynodes::concept_geography_object;
+
 ScAddr Keynodes::question_find_objects_in_radius;
 ScAddr Keynodes::concept_historical_and_cultural_heritage;
 ScAddr Keynodes::located_in_radius;

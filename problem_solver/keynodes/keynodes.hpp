@@ -33,12 +33,18 @@ public:
   SC_PROPERTY(Keynode("question_find_best_way"), ForceCreate)
   static ScAddr question_find_best_way;
   
+  SC_PROPERTY(Keynode("question_make_way"), ForceCreate)
+  static ScAddr question_make_way;
+  
   SC_PROPERTY(Keynode("in_way"), ForceCreate)
   static ScAddr in_way;
 
   SC_PROPERTY(Keynode("nrel_distance"), ForceCreate)
   static ScAddr nrel_distance;
-
+  
+  SC_PROPERTY(Keynode("concept_geography_object"), ForceCreate)
+  static ScAddr concept_geography_object;
+  
   SC_PROPERTY(Keynode("rrel_next_point"), ForceCreate)
   static ScAddr rrel_next_point;
   
