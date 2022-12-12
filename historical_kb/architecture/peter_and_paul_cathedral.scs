@@ -26,4 +26,12 @@ peter_and_paul_cathedral
 <= nrel_construction_material: brick;
 <- concept_building_in_good_condition;
 <- concept_monuments_of_architecture;
-<- concept_cathedral;;
+<- concept_cathedral;
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 52.4243035436263_31.017932009428563;;
+
+52.4243035436263_31.017932009428563
+<-rrel_latitude: [^"float:52.4243035436263"];
+<-rrel_longitude: [^"float:31.017932009428563"];
+<-rrel_x: [^"float:67"];
+<-rrel_y: [^"float:9"];;

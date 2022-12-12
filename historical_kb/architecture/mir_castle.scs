@@ -1,0 +1,37 @@
+mir_castle
+
+=> nrel_main_idtf:
+	[Мирский замок]
+	(*<-lang_ru;;*);
+	[Mir Castle]
+	(*<-lang_en;;*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Мирский замок)](*<-lang_ru;;*);
+		[Pic. (Mir Castle)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/mir_castle.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<= nrel_location: grodno_cregion;
+<= nrel_period_of_existence: 1910_pt;
+<= nrel_architect: Theodor_Bourshe;
+<= nrel_construction_period: 1500_1568; 	
+<= nrel_construction_material: brick;
+<- concept_building_in_good_condition;
+<- concept_monuments_of_architecture;
+<- concept_fortress;
+
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 53.45126634914267_26.473511984330123;;
+
+53.45126634914267_26.473511984330123
+<-rrel_latitude: [^"float:53.45126634914267"];
+<-rrel_longitude: [^"float:26.473511984330123"];
+<-rrel_x: [^"float:29"];
+<-rrel_y: [^"float:16"];;

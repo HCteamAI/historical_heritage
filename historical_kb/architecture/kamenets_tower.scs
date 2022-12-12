@@ -1,0 +1,37 @@
+kamenets_tower
+
+=> nrel_main_idtf:
+	[Каменецкая Башня]
+	(*<-lang_ru;;*);
+	[Kamenets Tower]
+	(*<-lang_en;;*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Каменецкая Башня)](*<-lang_ru;;*);
+		[Pic. (Kamenets Tower)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/kamenets_tower.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<= nrel_location: Brest;
+<= nrel_period_of_existence: 1288_pt;
+<= nrel_architect: architect_Alexa;
+<= nrel_construction_period: 1276_1288; 	
+<= nrel_construction_material: brick;
+<- concept_building_in_good_condition;
+<- concept_monuments_of_architecture;
+<- concept_fortress;
+
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 53.90512686952377_27.55304015234001;;
+
+53.90512686952377_27.55304015234001
+<-rrel_latitude: [^"float:53.90512686952377"];
+<-rrel_longitude: [^"float:27.55304015234001"];
+<-rrel_x: [^"float:46"];
+<-rrel_y: [^"float:11"];;

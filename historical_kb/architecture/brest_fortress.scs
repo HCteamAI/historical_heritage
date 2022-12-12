@@ -1,28 +1,36 @@
 brest_fortress
 
 => nrel_main_idtf:
-	[Брестская крепость]
-	(*<-lang_ru;;*);
-	[Brest Fortress]
-	(*<-lang_en;;*);
-	
+  [Брестская крепость]
+  (*<-lang_ru;;*);
+  [Brest Fortress]
+  (*<-lang_en;;*);
+  
 <-rrel_key_sc_element:...
 (*
-	<-illustration;;
-	=>nrel_main_idtf:
-		[Рис. (Брестская крепость)](*<-lang_ru;;*);
-		[Pic. (Brest Fortress)](*<-lang_en;;*);;
-	<=nrel_sc_text_translation:...
-	(*
-		->"file://pictures/concept_fortress.jpg"(*=>nrel_format:format_jpg;;*);;
-	*);;
+  <-illustration;;
+  =>nrel_main_idtf:
+    [Рис. (Брестская крепость)](*<-lang_ru;;*);
+    [Pic. (Brest Fortress)](*<-lang_en;;*);;
+  <=nrel_sc_text_translation:...
+  (*
+    ->"file://pictures/concept_fortress.jpg"(*=>nrel_format:format_jpg;;*);;
+  *);;
 *);
-	
+  
 <= nrel_location: Brest;
 <= nrel_period_of_existence: 1833_pt;
 <= nrel_architect: Karl_Operman;
-<= nrel_construction_period: 1833_1915; 	
+<= nrel_construction_period: 1833_1915;   
 <= nrel_construction_material: brick;
 <- concept_building_in_good_condition;
 <- concept_fortress;
-<- concept_monuments_of_architecture;;
+<- concept_monuments_of_architecture;
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 52.083333_23.652778;;
+
+52.083333_23.652778
+<-rrel_latitude: [^"float:52.083333"];
+<-rrel_longitude: [^"float:23.652778"];
+<-rrel_x: [^"float:40"];
+<-rrel_y: [^"float:8"];;

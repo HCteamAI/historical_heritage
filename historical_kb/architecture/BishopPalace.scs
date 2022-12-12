@@ -1,0 +1,37 @@
+bishop_palace
+
+=> nrel_main_idtf:
+	[Архиерейский дворец]
+	(*<-lang_ru;;*);
+	[Bishop's Palace]
+	(*<-lang_en;;*);
+	
+<-rrel_key_sc_element:...
+(*
+	<-illustration;;
+	=>nrel_main_idtf:
+		[Рис. (Архиерейский дворец)](*<-lang_ru;;*);
+		[Pic. (Bishop's Palace)](*<-lang_en;;*);;
+	<=nrel_sc_text_translation:...
+	(*
+		->"file://pictures/bishop_palace.jpg"(*=>nrel_format:format_jpg;;*);;
+	*);;
+*);
+	
+<= nrel_location: Mogilev;
+<= nrel_period_of_existence: 1788_pt;
+<= nrel_architect: Jan_Glaubitz;
+<= nrel_construction_period: 1762_1785; 	
+<= nrel_construction_material: brick;
+<- concept_building_in_good_condition;
+<- concept_monuments_of_architecture;
+<- concept_manor;
+
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 53.89529620022091_30.334768909482413;;
+
+53.89529620022091_30.334768909482413
+<-rrel_latitude: [^"float:53.89529620022091"];
+<-rrel_longitude: [^"float:30.334768909482413"];
+<-rrel_x: [^"float:60"];
+<-rrel_y: [^"float:13"];;
