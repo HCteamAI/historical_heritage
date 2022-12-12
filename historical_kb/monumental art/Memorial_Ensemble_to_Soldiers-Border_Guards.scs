@@ -30,5 +30,10 @@ Mass_grave_Heroes_of_great_Patriotic_War<- sc_node_not_relation;
 =>rrel_erection_date:2004;
 <- concept_round_sculpture;
 <- concept_sculptural_group;
-<- historical_monuments;;
+<- historical_monuments;
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 53.67256357220339_23.80330130153091;;
 
+53.67256357220339_23.80330130153091
+<-rrel_latitude: [^"53.67256357220339"];
+<-rrel_longitude: [^"float:23.80330130153091"];;

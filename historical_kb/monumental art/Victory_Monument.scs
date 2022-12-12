@@ -29,5 +29,11 @@ Victory_Monument<- sc_node_not_relation;
 =>rrel_erection_date:1954;
 =>rrel_location:Minsk;
 <- concept_round_sculpture;
-<- historical_monuments;;
+<- historical_monuments;
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 53.908788121280935_27.57544319229029;;
+
+53.908788121280935_27.57544319229029
+<-rrel_latitude: [^"53.908788121280935"];
+<-rrel_longitude: [^"float:27.57544319229029"];;
 

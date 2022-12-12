@@ -30,5 +30,11 @@ Unbowed_man<- sc_node_not_relation;
 =>rrel_location:Khatyn;
 <- concept_round_sculpture;
 <- concept_statue;
-<- historical_monuments;;
+<- historical_monuments;
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 54.33466878055414_27.944582766249557;;
+
+54.33466878055414_27.944582766249557
+<-rrel_latitude: [^"54.33466878055414"];
+<-rrel_longitude: [^"float:27.944582766249557"];;
 

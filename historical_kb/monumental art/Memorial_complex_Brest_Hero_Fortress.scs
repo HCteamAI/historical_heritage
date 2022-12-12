@@ -31,5 +31,11 @@ Memorial_complex_Brest_Hero_Fortress<- sc_node_not_relation;
 =>rrel_location:Brest;
 <- concept_round_sculpture;
 <-concept_sculptural_group;
-<- historical_monuments;;
+<- historical_monuments;
+<-concept_historical_and_cultural_heritage;
+<= nrel_geographical_location: 52.08293819340585_23.658353905716453;;
+
+52.08293819340585_23.658353905716453
+<-rrel_latitude: [^"52.08293819340585"];
+<-rrel_longitude: [^"float:23.658353905716453"];;
 
