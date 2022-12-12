@@ -98,7 +98,10 @@ namespace exampleModule
     	SC_LOG_ERROR("Arg not found");
     	return SC_RESULT_ERROR_INVALID_PARAMS; 
     }
-
+    if(CommonUtils::getPowerOfSet(ms_context.get(), node) <2){
+      SC_LOG_ERROR("Arg not found");
+    	return SC_RESULT_ERROR_INVALID_PARAMS; 
+    }
 
     ScAddr answer = ms_context->CreateNode(ScType::NodeConstStruct);
 

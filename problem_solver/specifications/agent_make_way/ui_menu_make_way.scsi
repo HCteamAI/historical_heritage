@@ -1,0 +1,27 @@
+ui_menu_make_way <- ui_user_command_class_atom; ui_user_command_class_view_kb; ui_one_argument_command_class;;
+
+ui_menu_make_way 
+=> nrel_main_idtf: 
+	[Создание пути]
+	(* <- lang_ru;; *);;
+
+ui_menu_make_way 
+=> nrel_main_idtf: 
+	[Make way]
+	(* <- lang_en;; *);;
+
+ui_menu_make_way => ui_nrel_command_template:
+	[*
+		question_make_way _-> ._question_make_way_structures_instance
+			(*
+				_-> ui_arg_1;;
+				_-> ui_arg_2;;
+				_-> ui_arg_3;;
+				_-> ui_arg_4;;
+				_-> ui_arg_5;;
+			*);;
+		._question_make_way_structures_instance _<- question;;
+	*];;
+
+ui_menu_make_way => ui_nrel_command_lang_template: [Создание пути] (* <- lang_ru;; *);;
+ui_menu_make_way => ui_nrel_command_lang_template: [Make way] (* <- lang_en;; *);;
